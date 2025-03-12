@@ -56,5 +56,5 @@ Basicamente el proceso es el paso a paso que se tiene en cuanta para resolver el
 
 Es este apartado se nos explica que los modelos dinamicos son  modelos matematicos que relacionan la variables que se tengan con el tiempo y se necesita sabweer cuando cambian las variabkles de interes respecto al tiempo  
 
-
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=f(t)"><img src="http://www.alciro.org/cgi/tex.cgi?f(t)" title="f(t)" border="0" /></a>
 
