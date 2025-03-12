@@ -50,11 +50,36 @@ se suele confundir con proceso pero sin embargo al ver puntualmente su deficicio
 imagen
 
 
+>🔑*Proceso:*
+>🔑*Proceso:*
+>🔑*Proceso:*
+
+
 Basicamente el proceso es el paso a paso que se tiene en cuanta para resolver el problema o alcanzar el objetivo.
 
 ## Modelos dinamicos:
 
 Es este apartado se nos explica que los modelos dinamicos son  modelos matematicos que relacionan la variables que se tengan con el tiempo y se necesita sabweer cuando cambian las variabkles de interes respecto al tiempo  
 
-$$<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=f(t)"><img src="http://www.alciro.org/cgi/tex.cgi?f(t)" title="f(t)" border="0" /></a>$$
+$$f(t)$$
+
+$$\frac{df(t)}{dt}$$
+
+## Derivada:
+Es este caso se nos presenta una breve descripcion de la derivada  como resumen de lo que ya se habia visto en clases anteriores presentada de la siguiente manera:
+
+$$f(x)=x^2$$
+
+$$\frac{\mathrm{df(x)} }{\mathrm{d} x}= 2x$$
+
+💡**Ejemplo 1:**  $$\frac{\mathrm{df(2)} }{\mathrm{d} x}=2(2)= 4$$
+
+💡**Ejemplo 2:**  $$\frac{\mathrm{df(3)} }{\mathrm{d} x}=2(3)= 6$$
+
+💡**Ejemplo 3:**  $$\frac{\mathrm{df(0)} }{\mathrm{d} x}=2(0)= 0$$
+
+
+imagen 
+
+
 
