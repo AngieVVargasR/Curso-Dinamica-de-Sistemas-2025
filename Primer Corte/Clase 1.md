@@ -52,5 +52,9 @@ imagen
 
 Basicamente el proceso es el paso a paso que se tiene en cuanta para resolver el problema o alcanzar el objetivo.
 
+## Modelos dinamicos:
+
+Es este apartado se nos explica que los modelos dinamicos son  modelos matematicos que relacionan la variables que se tengan con el tiempo y se necesita sabweer cuando cambian las variabkles de interes respecto al tiempo  
+
 
 
