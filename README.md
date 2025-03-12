@@ -1,1 +1,1 @@
-# Curso-Din-mica-de-Sistemas-2025
+En este repositorio se encontrara la materia de Dinamica de sistemas dictada por el Docente ------ de la Escuela Tecnologica Instituto Tecnico Central, desglosado en 3 cortes; los cuales cada uno tendra los temas explicados en clase con sus ejercicios y ejemplos. 
