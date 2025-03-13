@@ -46,8 +46,11 @@ la descomposición en fracciones parciales pasa a ser de la siguiente manera est
 
 ## 9. Ejercicios
 En este apartado se van a encontrar los ejercicios propuestos para esta clase qué son los siguientes:
+
 ##📚 Ejercicio 1:
+
 ##📚 Ejercicio 2:
+
 ##📚 Ejercicio 3:
 
 
