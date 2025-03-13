@@ -65,7 +65,7 @@ gráfica en matlab:
 
 >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_5.1_page-0001.jpg))
 
- Resultado ejercicio 1:  $$2*exp(-t) - 6*exp(-2*t) - 8*t*exp(-2*t)$$
+ Resultado ejercicio 1:  2*exp(-t) - 6*exp(-2*t) - 8*t*exp(-2*t)
 
 ## 📚Ejercicio 2:
 
@@ -75,7 +75,7 @@ gráfica en matlab:
 
 >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_5.3_page-0001.jpg))
 
- Resultado ejercicio 3 : $$3*exp(-t)*(cos(2*t) + (5*sin(2*t))/6)$$
+ Resultado ejercicio 3 : 3*exp(-t)*(cos(2*t) + (5*sin(2*t))/6)
 
  >[!IMPORTANT]
 > En esta clase también exploramos el manejo básico de MATLAB, aprendiendo a introducir funciones o ecuaciones en el programa con el propósito de generar gráficos. Se nos explicó el proceso para escribir el código necesario, desde la introducción de las ecuaciones hasta la configuración para visualizar la gráfica generada. Además, este aprendizaje nos permitió dar los primeros pasos en el uso de MATLAB como una herramienta práctica y versátil para el análisis de datos y sistemas. Este conocimiento será clave para avanzar en la aplicación de conceptos matemáticos de manera más visual y efectiva.
