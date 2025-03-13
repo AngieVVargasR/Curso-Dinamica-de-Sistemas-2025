@@ -10,7 +10,10 @@ Por otro lado, la segunda parte se centra en hacer un repaso de la transformada 
 >🔑 *Sistemas:* Un sistema es una combinación de componentes que actúan conjuntamente para alcanzar un objetivo específico. La combinación de componentes se puede representar por medio de reglas o principios que relacionan entradas con salidas.
 
 
- imagen
+
+<p align="center">
+    <img src="./imagens/Sistema.PNG" alt="Figura de sistema" />
+</p>
 
 
 
@@ -20,8 +23,9 @@ Básicamente, se nos indica que un sistema es un conjunto de pautas y reglas que
 >🔑*Sistema dinámico:* Un sistema se llama dinámico si su salida en el presente depende de una entrada en el pasado.
 También, si su salida en curso depende solamente de la entrada en curso, el sistema se conoce como estático.
 
-
-imagen
+<p align="center">
+    <img src="./imagens/Sistema dinamico.PNG" alt="Figura de sistema dinamico" />
+</p>
 
 
 
@@ -33,10 +37,6 @@ En este punto también nos explica que si esto no se cumple y la salida depende 
 
 
 
-imagen
-
-
-
 Nos explica que la planta es básicamente todo lo físico y/o tangible que permite que todo el proceso se lleve a cabo.
 Se suele confundir con proceso, pero sin embargo, al ver puntualmente su definición, ya se diferencia.
 
@@ -45,8 +45,6 @@ Se suele confundir con proceso, pero sin embargo, al ver puntualmente su definic
 >🔑*Proceso:* Es la secuencia de pasos que permite el desarrollo o fabricación de un objeto o producto.
 - A es el área de control que se usa como sinónimo de planta (aunque en sentido estricto no lo son).
 
-
-imagen
 
 Básicamente, el proceso es el paso a paso que se tiene en cuenta para resolver el problema o alcanzar el objetivo.
 
@@ -72,7 +70,9 @@ $$\frac{\mathrm{df(x)} }{\mathrm{d} x}= 2x$$
 💡**Ejemplo 3:**  $$\frac{\mathrm{df(0)} }{\mathrm{d} x}=2(0)= 0$$
 
 
-imagen 
+<p align="center">
+    <img src="./imagens/Derivada.PNG" alt="Figura de derivada" />
+</p>
 
 ## 4. Sistemas lineales y no lineales:
 
@@ -114,9 +114,6 @@ y escribe de la siguiente manera:
 
 $$L[f(t)]$$ 
 
-
-imagen 
-
 ## Transformada inversa:
 En este punto nos explica el paso contrario de la transformada, que es la transformada inversa; sin embargo, en la siguiente clase se va a ver más a fondo.
 
@@ -132,7 +129,9 @@ $$L^(-1) [f(t)]$$
 
 A continuación se presentará una tabla de transformadas, la cual nos ayudará a resolver y a dar respuesta básicamente a los ejercicios planteados.
 
-IMAGEN 
+<p align="center">
+    <img src="./imagens/Transformada de Laplace.PNG" alt="Figura de tabla de transformada" />
+</p>
 
 ## Conclusiones:
 Este resumen ofrece una visión general del contenido del curso, incluyendo conceptos previamente conocidos y otros menos familiares, pero fundamentales para el desarrollo de la carrera.
@@ -140,3 +139,6 @@ Este resumen ofrece una visión general del contenido del curso, incluyendo conc
 Además, el resumen destaca cómo se pueden aplicar estos conceptos dentro de la materia. En el contexto de la dinámica de sistemas, se abordan temas como la definición de sistemas, modelos matemáticos, la transformada (principal ecuación que será empleada en el curso), procesos, su alcance y la comprensión de lo que implica una planta. Estos conceptos son esenciales y deberán considerarse cuidadosamente a lo largo del curso.
 
 ## Referencias:
+https://acrobat.adobe.com/id/urn:aaid:sc:US:13513667-a82b-4d72-bbe1-81339126a05d
+https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
+https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
