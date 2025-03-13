@@ -133,13 +133,14 @@ gráfica en matlab:
 >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_3_page-0001.jpg)
 
 ## 10. Conclusiones
-En conclusión, podemos destacar que la transformada inversa de Laplace no necesariamente debe resolverse caso por caso, ya que es posible combinar o mezclar los diferentes métodos para obtener una solución más eficiente al problema. Aunque este enfoque puede implicar un proceso algo más extenso, al compararlo con métodos como la descomposición en fracciones parciales, queda claro que habría sido aún más complejo y laborioso si se hubiera abordado exclusivamente con este último. Por lo tanto, la combinación de métodos ofrece una solución más práctica y optimizada.
-
-Otra conclusión importante es que, al resolver ejercicios manualmente, los resultados no siempre coinciden exactamente con los obtenidos al utilizar herramientas como MATLAB. Por esta razón, es fundamental verificar que las respuestas sean lo más cercanas y consistentes posible, asegurando la precisión y confiabilidad de los cálculos realizados.verificar que las respuestas de lo más parecido es posible
+Podemos concluir que la transformada inversa de Laplace es una herramienta clave en la resolución de problemas matemáticos y el análisis de sistemas dinámicos, ya que simplifica y facilita la interpretación de resultados en el contexto del curso. Aunque los tres casos puntuales no representan una gran dificultad técnica, su aplicación puede extenderse debido a los pasos y procedimientos involucrados. A pesar de esto, su importancia en el desarrollo del curso radica en que proporciona una base sólida para abordar problemas más complejos y entender el funcionamiento de sistemas de manera integral y práctica.
 
 ## 11. Referencias
-https://github.com/FELIZURC/Dinamica-de-sistemas/tree/main
-http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp
+https://github.com/FELIZURC/Dinamica-de-sistemas/tree/main          
+http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp    
+https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
+https://acrobat.adobe.com/id/urn:aaid:sc:US:13513667-a82b-4d72-bbe1-81339126a05d
+
 
 
 
