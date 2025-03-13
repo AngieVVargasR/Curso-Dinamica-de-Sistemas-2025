@@ -1,3 +1,4 @@
+
 Felipe Cruz Pineda, Angie Vargas- M6A
 # Solución de ecuaciones
 En esta clase se profundizó en la solución de ecuaciones, presentando las fórmulas necesarias para desarrollarlas correctamente. Se proporcionaron explicaciones  de las definiciones fundamentales requeridas para comprender este tema.
@@ -46,6 +47,23 @@ solución a mano:
 ![](https://github.com/FELIZURC/figuras/blob/main/WhatsApp%20Image%202025-03-12%20at%2011.07.13%20PM%20(1).jpeg)
 
 Resultado del ejemplo : 3/5 - (3*exp(-t)*(cos(2*t) + sin(2*t)/2))/5
+
+## 2. Ejercicios:
+
+## 📚Ejercicio 1:
+$$F=(2*s-3)/((s+2)*(s^2+s-2)*(s^2+6*s+10)*(s^2+8*s+17))$$
+
+gráfica en matlab:
+
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_7.1_page-0001.jpg))
+
+## 📚Ejercicio 2:
+
+$$F=x"+5x'+4x=0 y(0)=1 y'(0)=0$$
+
+gráfica en matlab:
+
+![](https://github.com/FELIZURC/figuras/blob/main/Figure_4.2_page-0001.jpg))
 
 
 ## 10. Conclusiones
