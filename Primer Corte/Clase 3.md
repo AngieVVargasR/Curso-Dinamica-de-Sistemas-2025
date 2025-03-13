@@ -13,5 +13,3 @@ Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede
 
 ## 11. Referencias
 Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
-
-.
