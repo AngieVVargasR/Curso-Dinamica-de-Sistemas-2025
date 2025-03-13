@@ -5,15 +5,9 @@ En esta clase se profundizó en la solución de ecuaciones, presentando las fór
 
 Además, se ofreció una introducción breve a otros programas importantes, como Simulink e IoT, destacando su relevancia y las posibilidades que ofrecen para la aplicación de las ecuaciones y el análisis de sistemas. Esto permitió una visión más amplia de las herramientas disponibles, conectando la teoría con recursos tecnológicos prácticos que serán útiles en el desarrollo del curso.
 
->🔑 *Mtodología de solución:*- aplicar la transformada a toda la ecuación termina término de tal manera que se obtenga una ecuación algebraica en el dominio de s. - despejar la variable que representa la salida de la ecuación. - aplicar transformada inversa a la expresión obtenida para obtener la solución en el dominio del tiempo.
+>🔑 *Mtodología de solución:*- aplicar la transformada a toda la ecuación termino a término de tal manera que se obtenga una ecuación algebraica en el dominio de s. - despejar la variable que representa la salida de la ecuación. - aplicar transformada inversa a la expresión obtenida para obtener la solución en el dominio del tiempo.
 
 Básicamente lo que nos quiere dar a entender esto es que se usa la transformada para pasar una ecuación diferencial a una ecuación algebraica lo cual nos queda la ecuación en términos de s sin embargo se tiene que volver a hacer la inversa para llegar al dominio en el tiempo.
-
-Prestarnos tener en cuenta las condiciones generales de la transformada que son las siguientes:
-$$ L\left\{ f(t) \right\} $$
-$$L\left\{ f'(t) \right\}=sF(S)-f(0)$$
-$$L\left\{ f(t) \right\}$$
-
 
 ## 1. Ejemplos:
 
@@ -66,8 +60,12 @@ gráfica en matlab:
 ![](https://github.com/FELIZURC/figuras/blob/main/Figure_4.2_page-0001.jpg))
 
 
-## 10. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
+## 3. Conclusiones
+En conclusión, la solución de ecuaciones a través de las herramientas aprendidas en clase permite simplificar problemas complejos al transformarlos en expresiones más manejables en el dominio algebraico. Este enfoque no solo facilita el análisis, sino que también mejora la eficiencia del proceso al reducir la complejidad matemática. Además, dominar estas técnicas proporciona una base sólida para resolver una amplia variedad de problemas, asegurando un enfoque sistemático y concreto para obtener soluciones precisas y aplicables.
 
-## 11. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
+## 4. Referencias
+https://github.com/FELIZURC/Dinamica-de-sistemas/tree/main
+http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp
+https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
+https://acrobat.adobe.com/id/urn:aaid:sc:US:13513667-a82b-4d72-bbe1-81339126a05d
+
