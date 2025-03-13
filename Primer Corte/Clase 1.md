@@ -133,12 +133,12 @@ A continuación se presentará una tabla de transformadas, la cual nos ayudará 
     <img src="./imagens/Transformada de Laplace.PNG" alt="Figura de tabla de transformada" />
 </p>
 
-## Conclusiones:
+## 5. Conclusiones:
 Este resumen ofrece una visión general del contenido del curso, incluyendo conceptos previamente conocidos y otros menos familiares, pero fundamentales para el desarrollo de la carrera.
 
 Además, el resumen destaca cómo se pueden aplicar estos conceptos dentro de la materia. En el contexto de la dinámica de sistemas, se abordan temas como la definición de sistemas, modelos matemáticos, la transformada (principal ecuación que será empleada en el curso), procesos, su alcance y la comprensión de lo que implica una planta. Estos conceptos son esenciales y deberán considerarse cuidadosamente a lo largo del curso.
 
-## Referencias:
+## 6. Referencias:
 https://acrobat.adobe.com/id/urn:aaid:sc:US:13513667-a82b-4d72-bbe1-81339126a05d
 https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
 https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
