@@ -9,6 +9,7 @@ Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y fina
 
 $$R=\frac{V}{I}
 
+22
 
 ## 10. Conclusiones
 Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
