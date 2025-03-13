@@ -1,3 +1,4 @@
+Felipe Cruz Pineda, Angie Vargas- M6A
 # Transformada inversa
 En esta clase, se estudiará la transformada y su inversa, enfocándonos en cómo se calculan, cuáles son sus fórmulas y los tres casos específicos para resolverlas. También se trabajará en la descomposición en fracciones parciales, una herramienta clave que nos permitirá resolver ejercicios relacionados con la transformada inversa de manera más eficiente.
 
@@ -43,6 +44,11 @@ ECUACION
 
 la descomposición en fracciones parciales pasa a ser de la siguiente manera esto teniendo en cuenta que donde está ubicado a,b,..., n son los coeficientes que se van a hallar.
 
+## 9. Ejercicios
+En este apartado se van a encontrar los ejercicios propuestos para esta clase qué son los siguientes:
+##📚 Ejercicio 1:
+##📚 Ejercicio 2:
+##📚 Ejercicio 3:
 
 
 
