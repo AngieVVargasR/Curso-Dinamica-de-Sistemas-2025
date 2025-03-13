@@ -4,6 +4,7 @@ En esta clase se estudiará la transformada y su inversa, centrándonos en cómo
 
 Estos temas nos ayudarán a entender de forma más práctica y clara cómo aplicar estos conceptos, sentando una buena base para avanzar en el curso de manera efectiva.
 
+
 >🔑 *Definición:* si las funciones son simples se utiliza la tabla de transformada.- si las funciones son una combinación o una composición de varias funciones se hace lo siguiente:
 
 - se calcula la integral de la definición de transformada inversa y se realiza una expansión en fracciones parciales para obtener una suma de funciones mucho más simples que se puedan encontrar en las tablas de transformadas.
