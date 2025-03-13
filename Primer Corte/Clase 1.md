@@ -1,3 +1,4 @@
+Felipe Cruz Pineda, Angie Vargas- M6A
 # Clase Introductoria (Transformada de Laplace)
 El presente resumen está dividido en dos partes, lo cual brinda un panorama general del curso de Dinámica de sistemas.
 
@@ -59,7 +60,7 @@ $$f(t)$$
 
 $$\frac{df(t)}{dt}$$
 
-## Derivada:
+## 3. Derivada:
 Es este caso se nos presenta una breve descripcion de la derivada  como resumen de lo que ya se habia visto en clases anteriores presentada de la siguiente manera:
 
 $$f(x)=x^2$$
@@ -75,8 +76,8 @@ $$\frac{\mathrm{df(x)} }{\mathrm{d} x}= 2x$$
 
 imagen 
 
-## 3. Sistemas lineales y no lineales:
-### 3.1. Sistemas lineales
+## 4. Sistemas lineales y no lineales:
+### 4.1. Sistemas lineales
 
 >🔑 *un sistema es lineal cuando cuumple con el principio de super posicion*
 
@@ -86,9 +87,46 @@ el principio de super posicion consiste en la idea de qu ela respuesta completa 
 
 esto quiere decir que la entrada tiene que ser directamente proporcional a la salida.
 
-### 3.2. Sistemas no lineales
+### 4.2. Sistemas no lineales
 
 >🔑 *un sistema no lineal cuando no cuumple con el principio de super posicion*
 
+es cuando no se cumple el primer púnto de los sistemas lineales. O sea la suma de las respuestas indiciduales no es el resultado final.
+
+## 5. Modelamiento y Validacion:
+en este caso es importante validar el modelo con respecto a el sistema fisico que se tiene para poder comparar la salida del modelo con la salidadel fisico, si no coinciden se ttiene que modificar el modelo hasta que coincidan sus salidas 
 
 
+# Transformada de Laplace:
+
+>🔑 *Es un cambio despacio geométrico del dominio del tiempo hacia el dominio de la frecuencia compleja
+>- Ecuaciones con derivadas son transformadas inecuaciones algebraicas
+>- la transformada de Laplace muestra las exponenciales y sinusoidales presentes en una señal *
+
+
+básicamente la transformada de Laplace es un cambio de espacio geométrico del dominio del tiempo hacia el dominio de la frecuencia compleja también estas son ecuaciones con derivadas qué pasa hacer ecuaciones algebraicas y a esto se le conoce como transformada o transformar.
+  
+La forma de representarla es la siguiente: 
+
+$$x(t)--->X(s)$$
+
+y escribe de la siguiente manera:
+
+$$L[f(t)]$$ 
+
+
+imagen 
+
+## Transformada inversa:
+en este punto nos explica el paso contrario de la transformada que es la transformada inversa sin embargo en la siguiente clase se va a ver más a fondo
+
+se representa de la siguiente manera:
+
+$$X(s)--->x(t)$$
+
+y se escribe de la siguiente manera:
+
+$$L^(-1) [f(t)]$$
+
+## Conclusiones:
+## Referencias:
