@@ -108,6 +108,31 @@ gráfica en matlab:
 
 $$F=(2s-3)/(s^3+s)$$
 
+código:
+
+syms s t
+F=(2*s-3)/(s^3+s)
+pretty(F)
+f=ilaplace(F)
+
+
+resultados:
+
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |        3         |
+|       B       |        2         |
+|       C       |        -3        |
+
+
+
+gráfica en matlab:
+
+>![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_3_page-0001.jpg)
+
+** Resultado ejercicio 3 :** 3*cos(t) + 2*sin(t) - 3
+
+
 
 
 
