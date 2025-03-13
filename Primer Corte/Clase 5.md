@@ -3,16 +3,43 @@ En esta clase se estuvo desarrollando un ejercicio propuesto anteriormente al cu
 
 
 
-## 1. Ejercicio:
-Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y final de la ecuación para que la ecuación quede centrada ocupando una línea. Si se quiere que la ecuación quede integrada en el texto debe utilizar la etiqueta '$' al comienzo y final de la ecuación. Las ecuaciones pueden ser editadas utilizando el código LATEX, en el siguiente enlace encuentran un editor de ecuaciones que les genera el código. http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp . Sin embargo hay muchas otras herramientas que pueden utilizar para esto.
+## 📚 Ejercicio:
+en este ejercicio tuvimos la oportunidad de utilizar la mayoría de casos visto en el primer corte por lo que se puede decir que es la unión de varios casos para realizar un ejercicio te transforma inversa de Laplace
+
+$$F=(2*s-3)/((s+2)*(s^2+s-2)*(s^2+6*s+10)*(s^2+8*s+17))$$
+
+resultados:
+
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |      1/3978      |
+|       B       |     7/30         |
+|       C       |      -92/225     |
+|       d       |      7/34        |
+|       e       |    -1/17         |
+|       f       |      -6/5        |
+|       g       |      -207/130    |
 
 
-$$R=\frac{V}{I}
+imágenes del ejercicio realizado a mano:
 
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.40.56%20PM.jpeg))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.41.24%20PM.jpeg))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.42.06%20PM.jpeg))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.42.22%20PM.jpeg))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.42.43%20PM.jpeg))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.43.01%20PM.jpeg))
+Resultado del ejemplo : $$(7*t*exp(-2*t))/30 - exp(t)/3978 - (92*exp(-2*t))/225 + (4*exp(-3*t)*(cos(t) + (15*sin(t))/8))/17 + (113*exp(-4*t)*(cos(t) - (59*sin(t))/113))/650 $$
+
+ejercicio realizado en matlab:
+
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_7.1_page-0001.jpg))
 
 ## 10. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
+En conclusión, podemos destacar que la transformada inversa de Laplace no necesariamente debe resolverse caso por caso, ya que es posible combinar o mezclar los diferentes métodos para obtener una solución más eficiente al problema. Aunque este enfoque puede implicar un proceso algo más extenso, al compararlo con métodos como la descomposición en fracciones parciales, queda claro que habría sido aún más complejo y laborioso si se hubiera abordado exclusivamente con este último. Por lo tanto, la combinación de métodos ofrece una solución más práctica y optimizada.
+
+Otra conclusión importante es que, al resolver ejercicios manualmente, los resultados no siempre coinciden exactamente con los obtenidos al utilizar herramientas como MATLAB. Por esta razón, es fundamental verificar que las respuestas sean lo más cercanas y consistentes posible, asegurando la precisión y confiabilidad de los cálculos realizados.verificar que las respuestas de lo más parecido es posible
 
 ## 11. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
-
+https://github.com/FELIZURC/Dinamica-de-sistemas/tree/main
+(http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp)
