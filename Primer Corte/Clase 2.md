@@ -50,7 +50,7 @@ la descomposición en fracciones parciales pasa a ser de la siguiente manera est
 
 $$\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_1)^2}+\dots+\frac{A_k}{(s-p_1)^k}+\frac{A_{k+1}}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}$$
 
-## 9. Ejercicios
+## 2. Ejercicios
 En este apartado se van a encontrar los ejercicios(matlab) propuestos para esta clase qué son los siguientes:
 
 ## 📚Ejercicio 1:
@@ -132,10 +132,10 @@ gráfica en matlab:
 
 >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_3_page-0001.jpg)
 
-## 10. Conclusiones
+## 3. Conclusiones
 Podemos concluir que la transformada inversa de Laplace es una herramienta clave en la resolución de problemas matemáticos y el análisis de sistemas dinámicos, ya que simplifica y facilita la interpretación de resultados en el contexto del curso. Aunque los tres casos puntuales no representan una gran dificultad técnica, su aplicación puede extenderse debido a los pasos y procedimientos involucrados. A pesar de esto, su importancia en el desarrollo del curso radica en que proporciona una base sólida para abordar problemas más complejos y entender el funcionamiento de sistemas de manera integral y práctica.
 
-## 11. Referencias
+## 4. Referencias
 https://github.com/FELIZURC/Dinamica-de-sistemas/tree/main          
 http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp    
 https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
