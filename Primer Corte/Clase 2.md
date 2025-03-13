@@ -7,6 +7,7 @@ Estos temas nos ayudarán a entender de forma más práctica y clara cómo aplic
 >🔑 *Definición:* si las funciones son simples se utiliza la tabla de transformada.- si las funciones son una combinación o una composición de varias funciones se hace lo siguiente:
 
 - se calcula la integral de la definición de transformada inversa y se realiza una expansión en fracciones parciales para obtener una suma de funciones mucho más simples que se puedan encontrar en las tablas de transformadas.
+  
 
  Este apartado lo que nos quiere decir es que si es una función sencillita se puede ir y buscar en la tabla de transformadas dada anteriormente y ese sería nuestro resultado mientras que si es más compleja se tiene que hacer fracciones parciales para poder resolverla.
 
