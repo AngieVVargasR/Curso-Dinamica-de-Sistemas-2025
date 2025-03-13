@@ -42,4 +42,4 @@ Otra conclusión importante es que, al resolver ejercicios manualmente, los resu
 
 ## 11. Referencias
 https://github.com/FELIZURC/Dinamica-de-sistemas/tree/main
-(http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp)
+http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp
