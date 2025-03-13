@@ -132,7 +132,6 @@ gráfica en matlab:
 
 >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_3_page-0001.jpg)
 
-** Resultado ejercicio 3 :** 3*cos(t) + 2*sin(t) - 3
 
 
 
