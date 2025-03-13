@@ -18,23 +18,23 @@ Estos temas nos ayudarán a entender de forma más práctica y clara cómo aplic
 lo que quiere decir esto es que nuestra función tiene un numerador y un denominador y el denominador no tiene elementos repetidos.
 En este caso esto se puede representar de la siguiente manera:
 
-ecuacion 
+$$\frac{P\left(s\right)}{(s-p_1)\left(s-p_2\right)\dots\left(s-p_n\right)}$$
 
 la descomposición en fracciones parciales pasa a ser de la siguiente manera esto teniendo en cuenta que donde está ubicado a,b,..., n son los coeficientes que se van a hallar.
 
-ecuacion
+$$\frac{P\left(s\right)}{(s-p_1)\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}$$
 
 ### 1.2. Caso 2: tiene n raíces reales repetidas
 Eso quiere decir que nuestra función el denominador tiene ciertos elementos que se repiten en este caso se va a elevar al número de veces que esté repetido ese término.
 
 Cómo se muestra en la siguiente ecuación:
 
-ecuación
+$$\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}$$
 
 la descomposición en fracciones parciales pasa a ser de la siguiente manera esto teniendo en cuenta que donde está ubicado a,b,..., n son los coeficientes que se van a hallar.
 
 
-ECUACION
+$$\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_1)^2}+\dots+\frac{A_k}{(s-p_1)^k}+\frac{A_{k+1}}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}$$
 
 
 ### 1.3. Caso 3: tiene raíces complejas conjugadas
@@ -42,18 +42,71 @@ esto quiere decir que sus raíces o qué su denominador va a tener terminos qué
 
 Y se representa de la siguiente manera:
 
-ECUACION
+$$\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}$$
 
 la descomposición en fracciones parciales pasa a ser de la siguiente manera esto teniendo en cuenta que donde está ubicado a,b,..., n son los coeficientes que se van a hallar.
 
+$$\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_1)^2}+\dots+\frac{A_k}{(s-p_1)^k}+\frac{A_{k+1}}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}$$
+
 ## 9. Ejercicios
-En este apartado se van a encontrar los ejercicios propuestos para esta clase qué son los siguientes:
+En este apartado se van a encontrar los ejercicios(matlab) propuestos para esta clase qué son los siguientes:
 
 ## 📚Ejercicio 1:
+$$F=(3s+2)/(s(s+1)*(s-2))$$
+
+código:
+
+syms s t
+F=(s-2)/((2*s-1)^2*(s-1))
+pretty(F)
+f=ilaplace(F)
+
+resultados:
+
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |       -1         |
+|       B       |       4/3        |
+|       C       |       −1/3       |
+
+gráfica en matlab:
+
+
+>![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_1_github_page-0001.jpg)
+
+** Resultado ejercicio 1 :** (4*exp(2*t))/3 - exp(-t)/3 - 1
 
 ## 📚Ejercicio 2:
 
+$$F=(s-2)/((2s-1)^2*(s-1))$$
+
+código:
+
+syms s t
+F=(s-2)/((2*s-1)^2*(s-1))
+pretty(F)
+f=ilaplace(F)
+
+resultados:
+
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |        2         |
+|       B       |        3         |
+|       C       |        -1        |
+
+
+gráfica en matlab:
+
+>![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_2_page-0001.jpg)
+
+** Resultado ejercicio 2 :**exp(t/2) - exp(t) + (3*t*exp(t/2))/4
+
+
+
 ## 📚Ejercicio 3:
+
+$$F=(2s-3)/(s^3+s)$$
 
 
 
