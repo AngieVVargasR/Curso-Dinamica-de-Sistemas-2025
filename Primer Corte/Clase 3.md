@@ -84,4 +84,8 @@ Llegamos a la conclusión de que este sistema ofrece un enfoque más fácil y si
 Además, se determinó que cuanto más simplificado sea el método, más sencillo resulta graficarlo en MATLAB. Esto no solo agiliza la resolución de problemas, sino que también mejora la comprensión de los conceptos al visualizar los resultados de manera más clara y accesible.
 
 ## 4. Referencias
+https://github.com/FELIZURC/Dinamica-de-sistemas/tree/main          
+http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp    
+https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
+https://acrobat.adobe.com/id/urn:aaid:sc:US:13513667-a82b-4d72-bbe1-81339126a05d
 
