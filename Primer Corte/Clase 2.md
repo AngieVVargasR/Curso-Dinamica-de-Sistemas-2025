@@ -1,6 +1,8 @@
 Felipe Cruz Pineda, Angie Vargas- M6A
 # Transformada inversa
-En esta clase, se estudiará la transformada y su inversa, enfocándonos en cómo se calculan, cuáles son sus fórmulas y los tres casos específicos para resolverlas. También se trabajará en la descomposición en fracciones parciales, una herramienta clave que nos permitirá resolver ejercicios relacionados con la transformada inversa de manera más eficiente.
+En esta clase se estudiará la transformada y su inversa, centrándonos en cómo se utilizan y en los casos más comunes para resolverlas. Además, aprenderemos sobre descomposición en fracciones parciales, que será muy útil para resolver ejercicios relacionados con la transformada inversa.
+
+Estos temas nos ayudarán a entender de forma más práctica y clara cómo aplicar estos conceptos, sentando una buena base para avanzar en el curso de manera efectiva.
 
 >🔑 *Definición:* si las funciones son simples se utiliza la tabla de transformada.- si las funciones son una combinación o una composición de varias funciones se hace lo siguiente:
 
