@@ -39,12 +39,49 @@ Y se representa de la siguiente manera:
 $$\frac{P\left(s\right)}{(s^2 + b_1 s + c_2)(s - r)}=\frac{A s + B}{(s^2 + b_1 s + c_2)}+\frac{C}{(s - r)}$$
 
 
+## 2. Ejercicios
+En este apartado se van a encontrar los ejercicios(matlab) propuestos para esta clase qué son los siguientes:
+
+## 📚Ejercicio 1:
+$$F=(2s-3)/(s^3+s)$$
+
+código:
+
+syms s t
+F=(2*s-3)/(s^3+s)
+pretty(F)
+f=ilaplace(F)
+
+resultados:
+
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |        1/2       |
+|       B       |      -7/2        |
+|       C       |       -5/2       |
 
 
+gráfica en matlab:
+
+>![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_5.1_page-0001.jpg))
+
+ Resultado ejercicio 1:  $$2*exp(-t) - 6*exp(-2*t) - 8*t*exp(-2*t)$$
+
+## 📚Ejercicio 2:
+
+$$F=(3*s+8)/(s^2+2*s+5)$$
+
+gráfica en matlab:
+
+>![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_5.3_page-0001.jpg))
+
+ Resultado ejercicio 3 : $$3*exp(-t)*(cos(2*t) + (5*sin(2*t))/6)$$
 
 
-## 10. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
+## 3. Conclusiones
+Llegamos a la conclusión de que este sistema ofrece un enfoque más fácil y simplificado, lo cual permite que al realizar ejercicios o soluciones, el proceso sea mucho más eficiente y práctico en comparación con otros métodos que podrían ser más largos, complejos y confusos.
 
-## 11. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
+Además, se determinó que cuanto más simplificado sea el método, más sencillo resulta graficarlo en MATLAB. Esto no solo agiliza la resolución de problemas, sino que también mejora la comprensión de los conceptos al visualizar los resultados de manera más clara y accesible.
+
+## 4. Referencias
+
