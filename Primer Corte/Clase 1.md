@@ -49,15 +49,9 @@ se suele confundir con proceso pero sin embargo al ver puntualmente su deficicio
 
 imagen
 
-
->🔑*Proceso:*
->🔑*Proceso:*
->🔑*Proceso:*
-
-
 Basicamente el proceso es el paso a paso que se tiene en cuanta para resolver el problema o alcanzar el objetivo.
 
-## Modelos dinamicos:
+## 2. Modelos dinamicos:
 
 Es este apartado se nos explica que los modelos dinamicos son  modelos matematicos que relacionan la variables que se tengan con el tiempo y se necesita sabweer cuando cambian las variabkles de interes respecto al tiempo  
 
@@ -80,6 +74,21 @@ $$\frac{\mathrm{df(x)} }{\mathrm{d} x}= 2x$$
 
 
 imagen 
+
+## 3. Sistemas lineales y no lineales:
+### 3.1. Sistemas lineales
+
+>🔑 *un sistema es lineal cuando cuumple con el principio de super posicion*
+
+el principio de super posicion consiste en la idea de qu ela respuesta completa es la suma de las respuesta individuales de cada sistema.
+
+>🔑 *un sistema es lineal tambien cuando tiene una proporcionalidad entre la entrada y la salida *
+
+esto quiere decir que la entrada tiene que ser directamente proporcional a la salida.
+
+### 3.2. Sistemas no lineales
+
+>🔑 *un sistema no lineal cuando no cuumple con el principio de super posicion*
 
 
 
