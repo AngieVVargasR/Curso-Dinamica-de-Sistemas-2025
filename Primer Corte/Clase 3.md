@@ -77,6 +77,9 @@ gráfica en matlab:
 
  Resultado ejercicio 3 : $$3*exp(-t)*(cos(2*t) + (5*sin(2*t))/6)$$
 
+ >[!IMPORTANT]
+> En esta clase también exploramos el manejo básico de MATLAB, aprendiendo a introducir funciones o ecuaciones en el programa con el propósito de generar gráficos. Se nos explicó el proceso para escribir el código necesario, desde la introducción de las ecuaciones hasta la configuración para visualizar la gráfica generada. Además, este aprendizaje nos permitió dar los primeros pasos en el uso de MATLAB como una herramienta práctica y versátil para el análisis de datos y sistemas. Este conocimiento será clave para avanzar en la aplicación de conceptos matemáticos de manera más visual y efectiva.
+
 
 ## 3. Conclusiones
 Llegamos a la conclusión de que este sistema ofrece un enfoque más fácil y simplificado, lo cual permite que al realizar ejercicios o soluciones, el proceso sea mucho más eficiente y práctico en comparación con otros métodos que podrían ser más largos, complejos y confusos.
