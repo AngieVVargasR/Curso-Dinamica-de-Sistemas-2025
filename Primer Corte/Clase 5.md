@@ -29,7 +29,7 @@ imágenes del ejercicio realizado a mano:
 ![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.42.22%20PM.jpeg))
 ![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.42.43%20PM.jpeg))
 ![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.43.01%20PM.jpeg))
-Resultado del ejemplo : $$(7*t*exp(-2*t))/30 - exp(t)/3978 - (92*exp(-2*t))/225 + (4*exp(-3*t)*(cos(t) + (15*sin(t))/8))/17 + (113*exp(-4*t)*(cos(t) - (59*sin(t))/113))/650 $$
+Resultado del ejemplo : (7*t*exp(-2*t))/30 - exp(t)/3978 - (92*exp(-2*t))/225 + (4*exp(-3*t)*(cos(t) + (15*sin(t))/8))/17 + (113*exp(-4*t)*(cos(t) - (59*sin(t))/113))/650 
 
 ejercicio realizado en matlab:
 
