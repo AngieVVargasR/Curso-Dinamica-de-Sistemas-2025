@@ -1,11 +1,25 @@
-# Titulo de la clase 
-El título de cada clase, correspondiente al tema general que se trabaje en clase. Siempre después de cada título de clase, redactar una breve introducción (mínimo un párrafo) que de una mirada general al tema
-## 1. Subtítulos
-Agregue todos los subtítulos que considere necesarios para estructurar el contenido de la clase. Es importante que considere jerarquías de los temas para definir el orden de estos subtítulos. Cada subtítulo debe ir numerado como una sección, de la manera en que lo presenta esta plantilla
+Felipe Cruz Pineda, Angie Vargas- M6A
+# SISTEMAS MECANICOS 1 
+En esta sección se procederá a dar la explicación de qué es un sistema mecánico y cómo se puede representar también agregando sus distintos tipos y distintas ecuaciones.
+>🔑 *Sistema:* en este caso sistema se refiere a un conjunto de elementos interconectados que trabajan juntos para lograr un objetivo común cuyo comportamiento cambia en el tiempo.
 
-## 2. Definiciones
-Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
->🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
+imagen 
+
+Lo que quiere decir esto es una breve explicación de que un sistema consta de varios elementos eh conectados entre sí cuyo objetivo es realizar algún procedimiento o lograr un objetivo común.
+En la gráfica mencionada, se pueden identificar distintos tipos de sistemas, cada uno diseñado para cumplir con un propósito específico.
+
+## 1. Principio general de modelamiento:
+
+imagen 
+
+En la anterior imagen se puede observar lo que es el principio general de modelamiento en pocas palabras el balance de masa o energía representado en dinámica de sistemas la anterior imagen es la ecuación de masa y energía.
+
+
+## 2. Sistemas mecánicos:
+En este punto se estará hablando de sistemas donde se utilizan elementos como la masa el resorte y el amortiguador definiendo así otros tipos de variables que influyen en estos sistemas mecánicos como la fricción ir solucionando ejemplos para entender su funcionamiento.
+
+### 2.1. Resortes:
+>🔑 *Resorte:* elemento que tiene una forma que almacena energía mecánica que al comprimirlo busca su estado de reposo nuevamente.
 
 ## 3. Subsecciones
 Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
