@@ -35,8 +35,50 @@ $$
 $$
 
 ## 📚Ejercicio 2:
+$$
+2\ddot{x} + 2\dot{x} + x = 1 \quad\quad\quad x(0) = 0; \quad \dot{x} = 2
+$$
+
+$$
+2(s^{2}X(s)-2)+2(sX(s))+X(s) = \frac{1}{s}
+$$
+
+$$
+2s^{2}X(s)-4+2sX(s)+X(s) = \frac{1}{s}
+$$
+
+$$
+X(s)\left(2s^{2}+2s+1\right) = \frac{1}{s} + 4
+$$
+
+$$
+X(s) = \frac{1+4s}{s(2s^{2}+2s+1)} = \frac{A}{s} + \frac{Bs + D}{2s^{2}+2s+1}
+$$
+
+$$
+A = \frac{1+4s}{2s^{2}+2s+1} \biggr|_{s=0} = \frac{1}{1} = 1 \quad \rightarrow \boxed{A = 1}
+$$
+
+Evaluando en $s = -1 + 2i$:
+
+$$
+\frac{1+4(-1+2i)}{-1+2i} = -B + 2Bi + D
+$$
+
+$$
+\frac{-3 + 8i}{-1 + 2i} \cdot \frac{-1 - 2i}{-1 - 2i} = -B + 2Bi + D
+$$
+
+$$
+\frac{-160i + 80}{64} = -B + 2Bi + D
+$$
+
+- $\frac{-2i}{5} = 2Bi \Rightarrow \boxed{B = -\frac{1}{5}}$
+- $\frac{19}{5} = -B + D \Rightarrow \boxed{D = 4}$
+en este caso falto hallar su transformada inversa.
 
 ## 📚Ejercicio 3:
+
 ## 📚Ejercicio 4:
 
 ## 1. Conclusiones
