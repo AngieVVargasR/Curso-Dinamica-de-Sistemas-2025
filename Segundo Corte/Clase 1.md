@@ -79,8 +79,55 @@ en este caso falto hallar su transformada inversa.
 
 ## 📚Ejercicio 3:
 
-## 📚Ejercicio 4:
+$$
+F(s) = \frac{5(s+2)}{s^{2}(s^{2}-4s+8)} = \frac{A}{s} + \frac{B}{s^{2}} + \frac{Cs + D}{s^{2}-4s+8}
+$$
 
+$$
+B = \frac{5(s+2)}{s^{2}-4s+8} \biggr|_{s=0} = \frac{10}{8}
+$$
+
+$$
+A = \frac{5(s^{2}-4s+8)-5(s+2)(2s-4)}{(s^{2}-4s+8)^{2}} \biggr|_{s=0} = \frac{80}{64} = \frac{5}{4}
+$$
+
+Para $s = 2 + 2i$:
+
+$$
+\frac{5(s+2)}{s^{2}} \biggr|_{s=2+2i} = 2C + 2Ci + D
+$$
+
+$$
+\frac{20 + 10i}{8i} \cdot \frac{-8i}{-8i} = 2C + 2Ci + D
+$$
+
+$$
+\frac{-160i + 80}{64} = 2C + 2Ci + D
+$$
+
+- $2Ci = \frac{-160i}{64} \Rightarrow C = \frac{160}{128}$
+- $\frac{80}{64} = 2C + D \Rightarrow D = \frac{-8 \cdot 128}{64 \cdot 2 \cdot 160}$
+
+
+## 📚Ejercicio 4:
+$$
+F(s) = \frac{6s}{\left(2-\frac{5}{2}\right)(s^{2}-4s+8)} = \frac{A}{s - \frac{5}{2}} + \frac{Bs + C}{s^{2}-4s+8}
+$$
+
+$$
+A = \frac{6s}{s^{2}-4s+8} \biggr|_{s = \frac{5}{2}} = \frac{60}{97}
+$$
+
+Evaluando en $s = -2 + 2i$:
+
+$$
+\frac{6s}{s^{2}-4s+8} \biggr|_{s = -2+2i} = Bs + C
+$$
+
+- $B = \frac{-160}{128}$
+- $C = \frac{80 \cdot 128}{64 \cdot 2 \cdot 160}$
+
+---
 ## 1. Conclusiones
 Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
 
