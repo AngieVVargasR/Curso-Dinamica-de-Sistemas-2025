@@ -3,7 +3,8 @@ Felipe Cruz Pineda, Angie Vargas- M6A
 En esta sección se procederá a dar la explicación de qué es un sistema mecánico y cómo se puede representar también agregando sus distintos tipos y distintas ecuaciones.
 >🔑 *Sistema:* en este caso sistema se refiere a un conjunto de elementos interconectados que trabajan juntos para lograr un objetivo común cuyo comportamiento cambia en el tiempo.
 
-imagen 
+![image](https://github.com/user-attachments/assets/c254f065-b391-43f2-a4a4-b758938945f0)
+
 
 Lo que quiere decir esto es una breve explicación de que un sistema consta de varios elementos eh conectados entre sí cuyo objetivo es realizar algún procedimiento o lograr un objetivo común.
 En la gráfica mencionada, se pueden identificar distintos tipos de sistemas, cada uno diseñado para cumplir con un propósito específico.
@@ -21,72 +22,44 @@ En este punto se estará hablando de sistemas donde se utilizan elementos como l
 ### 2.1. Resortes:
 >🔑 *Resorte:* elemento que tiene una forma que almacena energía mecánica que al comprimirlo busca su estado de reposo nuevamente.
 
-## 3. Subsecciones
-Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
-### 3.1. Título de subsecciones
-Para la creación de estas subsecciones debe utilizar un tamaño de letra más pequeño, por lo tanto utilice la etiqueta '###' 
-### 3.2. Numeración de subsecciones
-Siga la numeración de la sección seguida de un punto y luego el número de la subsección.
+Básicamente los resortes son elementos que pueden almacenar energía mecánica en este caso se pueden estirar o comprimir lo que hace que este elemento vuelva a su estado de reposo.
 
-## 4. Ejemplos
-Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
+imagen 
+### 2.2. Amortiguador:
+>🔑 *Amortiguador:* 
 
-## 5. Ecuaciones
-Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y final de la ecuación para que la ecuación quede centrada ocupando una línea. Si se quiere que la ecuación quede integrada en el texto debe utilizar la etiqueta '$' al comienzo y final de la ecuación. Las ecuaciones pueden ser editadas utilizando el código LATEX, en el siguiente enlace encuentran un editor de ecuaciones que les genera el código. http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp . Sin embargo hay muchas otras herramientas que pueden utilizar para esto.
+## 3. Tipos de friccion:
+### 3.1. Friccion  en seco:
+>🔑 *Friccion en seco:*
+
+imagen 
+ resumen propio:
+
+ ### 3.2. Friccion por rodamiento:
+ >🔑 *Friccion por rodamiento:*
+
+ 
+## 3. Sistemas mecanicos:
+
+### 3.1. Sistema masa-resorte-amortiguador:
+
+resumen
+
+imagenes
 
 💡**Ejemplo 1:** si se va a representar la ecuación de la ley de Ohm se puede mostrar así $R=\frac{V}{I}$ o también,
 
 $$R=\frac{V}{I}$$
 
-## 6. Figuras
-Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las figuras de las presentaciones**. Para incluir figuras puede seguir los siguientes pasos:
-* Primero escribimos ![]().
-* Después escribimos, dentro de los corchetes, el texto alternativo. Este es opcional y solo entra en acción cuando no se puede cargar la imagen correctamente.
-* Después escribimos, dentro de los paréntesis, la ubicación del archivo (ya sea una url o una ubicación dentro de algun folder local). Se recomienda poner las imágenes en una carpeta que se llame imágenes dentro del repositorio github para que no tengan problemas al cargar las imágenes.
+## 4. Sistemas mecanicos mas complejos:
 
 💡**Ejemplo 2:**
 
 ![Figura de prueba](images/plantilla/Captura2.PNG)
 
-Figura 1. Figura de prueba
+## 4. Sistemas rotacional:
 
-Incluya la respectiva etiqueta a modo de descripción de la figura y mantenga numeración consecutiva para todas las figuras de la clase.
-
-## 7. Tablas
-En caso de necesitar la inclusión de tablas para organizar información se recomienda el uso de la herramienta del siguiente enlace https://www.tablesgenerator.com/markdown_tables , la cual permite organizar la información dentro de la tabla y genera el código markdown automáticamente:
-
-💡**Ejemplo 3:** 
-
-| **Resultado** | **x = número de intentos hasta primer éxito** |
-|---------------|-----------------------------------------------|
-|       S       |                       1                       |
-|       FS      |                       2                       |
-|      FFS      |                       3                       |
-|      ...      |                      ...                      |
-|    FFFFFFS    |                       7                       |
-|      ...      |                      ...                      |
-
-Tabla 1. Tabla de ejemplo
-
-Cada tabla debe llevar la etiqueta que describa su contenido y numeración consecutiva para todas las tablas
-
-## 8. Código
-Teniendo en cuenta que el curso requiere del desarrollo de código matlab, c, c++ u otro. Si requiere incluir pequeños segmentos de código en los apuntes hágalos de la siguiente manera:
-
-💡**Ejemplo 4:**
-```
-var sumar2 = function(numero) {
-  return numero + 2;
-}
-```
-
-## 9. Ejercicios
-Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
-
-## Rúbrica
-| 0-1                                                                                   | 1-2                                                                                  | 2-3                                                                                                                                                                               | 3-4                                                                                                                                                                       | 4-5                                                                                                                                                                               |
-|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Presenta menos del 10% de los temas o no presenta por  el medio y formato  solicitado | Presenta menos del 40% de los temas solicitados, y  cumple parcialmente la plantilla | Presenta menos del 60% de los temas solicitados (con descripciones, gráficos tablas, etc), y cumple  parcialmente la plantilla. No presenta la totalidad  de ejercicios resueltos | Presenta menos del 80% de los temas solicitados (con descripciones, gráficos, tablas, etc) y cumple con  la plantilla. No presenta  la totalidad de ejercicios  resueltos | Presenta el 100% de los temas vistos en clase (con descripciones, gráficos, tablas, etc), siguiendo totalmente la plantilla. presenta la  totalidad de los ejercicios solicitados |
+💡**Ejemplo 2:**
 
 ## 10. Conclusiones
 Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
