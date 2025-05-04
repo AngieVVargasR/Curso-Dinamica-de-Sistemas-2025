@@ -129,7 +129,7 @@ $$
 
 ---
 ## 1. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
+En este caso, podemos observar cómo es posible abordar la solución de este tipo de ejercicios, aplicando estrategias matemáticas y conceptuales adecuadas. Durante el parcial, estos problemas fueron resueltos utilizando todos los conocimientos adquiridos en el primer corte, lo que permitió reforzar la comprensión y el manejo de los principios fundamentales.
 
 ## 2. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
+(https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pd)
