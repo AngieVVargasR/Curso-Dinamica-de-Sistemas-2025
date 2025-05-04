@@ -108,6 +108,83 @@ $$
 e_i \frac{dE_i}{dt} + \frac{E_i}{R_1} + L_2 \frac{dE}{dt} + \frac{E}{R_2} = 0
 $$
 
+## 📚Ejercicio 1:
+
+<p align="center">
+    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
+</p>
+
+en este ejercicio tenemos un sistema eléctrico de amplificadores no inversores por lo que vamos allá su sistema de ecuaciones:
+
+$$
+i_1= i_2 + i_3 
+$$
+
+$$
+i_3= 0 
+$$
+
+$$
+i_1=\frac{v-va}{rf} 
+$$
+
+$$ 
+i_2=\frac{v-0}{rg} = \frac{va}{rg}
+$$
+
+$$
+i_1=\frac{v}{rf} - \frac{va}{rf}  
+$$ 
+
+$$
+\frac{va}{rg}= \frac{va}{rg} + \frac{va}{rf}
+$$ 
+
+$$ 
+v= va(1 + \frac{rf}{rg})
+$$
+
+## 📚Ejercicio 2:
+<p align="center">
+    <img src="./Imagenes/EJE2.PNG" alt="Resorte" />
+</p>
+
+En este ejercicio que se ve en la imagen también debemos hallar sus ecuaciones por lo que procedimos a hacer primeramente el diagrama de cuerpo libre.
+
+<p align="center">
+    <img src="./Imagenes/EJE2.2.PNG" alt="Resorte" />
+</p>
+
+ya teniendo nuestro diagrama de cuerpo libre pero seguimos ayer nuestras ecuaciones de la siguiente manera:
+
+$$
+a = \frac{d^2}{dt^2}y_2(t)
+$$
+
+$$
+f_B(t)=B\frac{d}{dt}y_2(t)
+$$
+
+$$
+f_k(t) = K[y_1(t)-y_2(t)]
+$$
+
+$$
+f_k(t)-f_B(t)  =M\cdot a
+$$
+
+$$
+K[y_1(t)-y_2(t)]-B\frac{d}{dt}y_2(t)=M\frac{d^2}{dt^2}y_2(t)
+$$
+
+$$
+Ky_1(t)-Ky_2(t)-B\frac{d}{dt}y_2(t)=M\frac{d^2}{dt^2}y_2(t)
+$$
+
+$$
+K_y1(t) = M\frac{d^2}{dt^2}y_2(t)+B\frac{d}{dt}y_2(t) + K y_2(t)
+$$
+
 ## 2. Conclusiones
 En conclusión los sistemas eléctricos permiten modelar y simular el comportamiento de redes eléctricas bajo distintos escenarios. Además, se pone a prueba la estabilidad del sistema, lo que resulta clave para evaluar el funcionamiento del circuito y su diagrama. A través del modelo matemático, se pueden analizar diferentes condiciones y encontrar soluciones óptimas para mejorar la eficiencia y confiabilidad del sistema eléctrico.
 
