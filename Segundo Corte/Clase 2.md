@@ -288,11 +288,57 @@ $$
 0.1(x_1(t) - x_2(t)) = 0.1y(t) + 0.05\dot{y}(t) = 10 \, \text{kg} \cdot \ddot{y}(t)
 $$
 
-## 7. Conclusiones
+## 7. Ejercicios externos: 
+
+## 📚Ejercicio 1:
+
+<p align="center">
+    <img src="./Imagenes/eje2 masa2.PNG" alt="Resorte" />
+</p>
+
+en este ejercicio tenemos un sistema mecánico por lo que vamos allá su sistema de ecuaciones:
+ realizamos el paso a paso y en este caso pues diseñamos el diagrama de cuerpo libre qué es el siguiente:
+<p align="center">
+    <img src="./Imagenes/eje2 masa2.PNG" alt="Resorte" />
+</p>
+
+y por último pasamos a allá en nuestras ecuaciones que quedan de la siguiente manera:
+
+$$
+a = \frac{d^2 x_2(t)}
+$$
+
+$$
+K_2(x_1 - x_2)(t) - K_1 y(t) + b \cdot \dot{y}(t) = m_1 \cdot \dot{y}(t)
+$$
+
+$$
+0.1(x_1(t) - x_2(t)) = 0.1y(t) + 0.05\dot{y}(t) = 10 \, \text{kg} \cdot \ddot{y}(t)
+$$
+
+## 📚Ejercicio 2:
+<p align="center">
+    <img src="./Imagenes/eje2 masa2.PNG" alt="Resorte" />
+</p>
+
+En este ejercicio que se ve en la imagen también debemos hallar sus ecuaciones por lo que procedimos a hacer primeramente el diagrama de cuerpo libre.
+
+<p align="center">
+    <img src="./Imagenes/eje2 masa2.PNG" alt="Resorte" />
+</p>
+
+ya teniendo nuestro diagrama de cuerpo libre pero seguimos ayer nuestras ecuaciones de la siguiente manera:
+
+
+
+
+
+## 8. Conclusiones
 En conclusión, en este apartado podemos observar que muchos elementos mecánicos no solo requieren una ecuación para su análisis, sino también la aplicación de una fuerza externa. Además, hemos aprendido la importancia de realizar un diagrama de cuerpo libre, ya que este nos permite identificar las fuerzas que actúan sobre el cuerpo y comprender su comportamiento.
 Asimismo, dependiendo del tipo de elemento anclado a la masa, este adquirirá ciertas propiedades específicas. Por ejemplo, en el caso de un resorte, este se estirará o se comprimirá según la fuerza aplicada, mientras que un amortiguador generará fricción para disipar energía. Estos principios, junto con otros conceptos, nos ayudan a determinar el funcionamiento del modelo y a desarrollar las ecuaciones necesarias para construir un sistema mecánico basado en modelos matemáticos.
 
-## 8. Referencias
+## 9. Referencias
 https://acrobat.adobe.com/id/urn:aaid:sc:US:71394447-b9cc-4ebe-8898-e8731e65012f
 https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
-https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.p
+https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
+https://es.scribd.com/document/545318672/modelado-de-sistemas-mecanicos-I
