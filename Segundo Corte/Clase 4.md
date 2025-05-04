@@ -5,7 +5,7 @@ En este apartado procederemos a explicar un poco lo que son sistemas eléctricos
 ## 1. Circuito RLC:
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/rlc.PNG" alt="ejemplo" />
 </p>
 
 >🔑 * circuito RLC:* este es un fenómeno físico que modela este comportamiento en las leyes de kirchoff y y se emplean las siguientes ecuaciones:
@@ -27,7 +27,7 @@ $$
 En este ejemplo procedemos a realizarlo por método de malla ya que es una trayectoria cerrada por lo que sus elementos están en serie y su corriente va hacia una misma dirección.
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/eje1.PNG" alt="ejemplo" />
 </p>
 
 Para poder solucionar los debemos tener en cuenta lo siguiente:
@@ -63,7 +63,7 @@ $$
 En este ejercicio debemos obtener el modelo para  el circuito qué se muestra a continuación:
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/act1.PNG" alt="ejemplo" />
 </p>
 
 en este ejercicio podemos observar que tenemos 2 mallas y debemos hallar el valor de y por lo que a continuación se mostrará cómo podemos sacar nuestras ecuaciones para el modelo matemático eléctrico:
@@ -110,7 +110,7 @@ Este método también aplica la ley de kirchhoff pero en este caso de Corrientes
 💡**Ejemplo 2:** 
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/nodos.PNG" alt="ejemplo" />
 </p>
 
 en este caso procedemos a aplicar las siguientes ocasiones de la siguiente manera y teniendo como resultado lo siguiente:
@@ -145,7 +145,7 @@ $$
 por último realizamos la siguiente actividad:
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/act 2.PNG" alt="ejemplo" />
 </p>
 la cual aplicando los métodos anteriormente utilizados nos da resultado las siguientes ecuaciones y modelos matemáticos:
 
