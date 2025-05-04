@@ -108,10 +108,10 @@ $$
 e_i \frac{dE_i}{dt} + \frac{E_i}{R_1} + L_2 \frac{dE}{dt} + \frac{E}{R_2} = 0
 $$
 
-## 10. Conclusiones
+## 2. Conclusiones
 En conclusión los sistemas eléctricos permiten modelar y simular el comportamiento de redes eléctricas bajo distintos escenarios. Además, se pone a prueba la estabilidad del sistema, lo que resulta clave para evaluar el funcionamiento del circuito y su diagrama. A través del modelo matemático, se pueden analizar diferentes condiciones y encontrar soluciones óptimas para mejorar la eficiencia y confiabilidad del sistema eléctrico.
 
-## 11. Referencias
+## 3. Referencias
 https://acrobat.adobe.com/id/urn:aaid:sc:US:118ebe01-b47f-43bc-94ec-d83ea4d8d95c
 https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
 https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf)
