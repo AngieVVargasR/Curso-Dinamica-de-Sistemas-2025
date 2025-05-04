@@ -229,7 +229,7 @@ $$
 $$
 k_2 \cdot (x_1(t) - x_2(t)) + b \cdot \frac{d(x_1(t) - x_2(t))}{dt} - k_3 \cdot x_2(t) = m_2 \cdot \frac{d^2 x_2(t)}{dt^2}
 $$
-## 4. Sistemas rotacional:
+## 6. Sistemas rotacional:
  >🔑 * sistema rotacional:* es un fenómeno mecánico donde la naturaleza el movimiento cambia y se convierte en un movimiento angular.
 
 Por lo que al ser un movimiento rotacional van a cambiar sus leyes y sus fórmulas para poder hallar nuestro sistema matemático por lo cual si van a utilizar las siguientes ecuaciones:
@@ -287,11 +287,11 @@ $$
 0.1(x_1(t) - x_2(t)) = 0.1y(t) + 0.05\dot{y}(t) = 10 \, \text{kg} \cdot \ddot{y}(t)
 $$
 
-## 10. Conclusiones
+## 7. Conclusiones
 En conclusión, en este apartado podemos observar que muchos elementos mecánicos no solo requieren una ecuación para su análisis, sino también la aplicación de una fuerza externa. Además, hemos aprendido la importancia de realizar un diagrama de cuerpo libre, ya que este nos permite identificar las fuerzas que actúan sobre el cuerpo y comprender su comportamiento.
 Asimismo, dependiendo del tipo de elemento anclado a la masa, este adquirirá ciertas propiedades específicas. Por ejemplo, en el caso de un resorte, este se estirará o se comprimirá según la fuerza aplicada, mientras que un amortiguador generará fricción para disipar energía. Estos principios, junto con otros conceptos, nos ayudan a determinar el funcionamiento del modelo y a desarrollar las ecuaciones necesarias para construir un sistema mecánico basado en modelos matemáticos.
 
-## 11. Referencias
+## 8. Referencias
 https://acrobat.adobe.com/id/urn:aaid:sc:US:71394447-b9cc-4ebe-8898-e8731e65012f
 https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
 https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.p
