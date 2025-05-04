@@ -16,7 +16,9 @@ En la gráfica mencionada, se pueden identificar distintos tipos de sistemas, ca
 
 ## 1. Principio general de modelamiento:
 
-imagen 
+<p align="center">
+    <img src="./Imagenes/Sistema. PNG.PNG" alt="Figura de sistema" />
+</p>
 
 En la anterior imagen se puede observar lo que es el principio general de modelamiento en pocas palabras el balance de masa o energía representado en dinámica de sistemas la anterior imagen es la ecuación de masa y energía.
 
