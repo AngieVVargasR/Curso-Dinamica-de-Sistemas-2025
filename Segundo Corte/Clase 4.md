@@ -1,79 +1,106 @@
-# Titulo de la clase 
-El título de cada clase, correspondiente al tema general que se trabaje en clase. Siempre después de cada título de clase, redactar una breve introducción (mínimo un párrafo) que de una mirada general al tema
-## 1. Subtítulos
-Agregue todos los subtítulos que considere necesarios para estructurar el contenido de la clase. Es importante que considere jerarquías de los temas para definir el orden de estos subtítulos. Cada subtítulo debe ir numerado como una sección, de la manera en que lo presenta esta plantilla
+Felipe Cruz Pineda, Angie Vargas- M6A
+# SISTEMAS ELECTRICOS
+En este apartado procederemos a explicar un poco lo que son sistemas eléctricos y cómo se pueden hallar las ecuaciones de estos para modelar matemáticamente lo que se pide.
 
-## 2. Definiciones
-Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
->🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
+## 1. Circuito RLC:
 
-## 3. Subsecciones
-Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
-### 3.1. Título de subsecciones
-Para la creación de estas subsecciones debe utilizar un tamaño de letra más pequeño, por lo tanto utilice la etiqueta '###' 
-### 3.2. Numeración de subsecciones
-Siga la numeración de la sección seguida de un punto y luego el número de la subsección.
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
 
-## 4. Ejemplos
-Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
+>🔑 * circuito RLC:* este es un fenómeno físico que modela este comportamiento en las leyes de kirchoff y y se emplean las siguientes ecuaciones:
 
-## 5. Ecuaciones
-Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y final de la ecuación para que la ecuación quede centrada ocupando una línea. Si se quiere que la ecuación quede integrada en el texto debe utilizar la etiqueta '$' al comienzo y final de la ecuación. Las ecuaciones pueden ser editadas utilizando el código LATEX, en el siguiente enlace encuentran un editor de ecuaciones que les genera el código. http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp . Sin embargo hay muchas otras herramientas que pueden utilizar para esto.
+$$
+R = \frac{v(t)}{l(t)}
+$$
 
-💡**Ejemplo 1:** si se va a representar la ecuación de la ley de Ohm se puede mostrar así $R=\frac{V}{I}$ o también,
+$$
+i(t) = c\frac{dv(t)}{dt}
+$$
 
-$$R=\frac{V}{I}$$
+$$
+v(t) = L\frac{di(t)}{dt}
+$$
 
-## 6. Figuras
-Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las figuras de las presentaciones**. Para incluir figuras puede seguir los siguientes pasos:
-* Primero escribimos ![]().
-* Después escribimos, dentro de los corchetes, el texto alternativo. Este es opcional y solo entra en acción cuando no se puede cargar la imagen correctamente.
-* Después escribimos, dentro de los paréntesis, la ubicación del archivo (ya sea una url o una ubicación dentro de algun folder local). Se recomienda poner las imágenes en una carpeta que se llame imágenes dentro del repositorio github para que no tengan problemas al cargar las imágenes.
+💡**Ejemplo 1:** 
 
-💡**Ejemplo 2:**
+En este ejemplo procedemos a realizarlo por método de malla ya que es una trayectoria cerrada por lo que sus elementos están en serie y su corriente va hacia una misma dirección.
 
-![Figura de prueba](images/plantilla/Captura2.PNG)
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
 
-Figura 1. Figura de prueba
+Para poder solucionar los debemos tener en cuenta lo siguiente:
+- identificar cuántas mallas hay (en el caso de nuestro primer ejemplo sólo tenemos una malla cerrada)
+- dibujar las Corrientes de las mallas( qué quiere decir esto hay que dibujar en qué sentido va la corriente cómo le indica la imagen)
+- se debe también escribir los signos de cada elemento dependiendo hacia qué sentido va
+- y por último se debe hallar la ecuación.
 
-Incluya la respectiva etiqueta a modo de descripción de la figura y mantenga numeración consecutiva para todas las figuras de la clase.
+Solucionando ya nuestro ejemplo procedemos a aplicar la ley de kirchoff y nos da lo siguiente:
 
-## 7. Tablas
-En caso de necesitar la inclusión de tablas para organizar información se recomienda el uso de la herramienta del siguiente enlace https://www.tablesgenerator.com/markdown_tables , la cual permite organizar la información dentro de la tabla y genera el código markdown automáticamente:
+$$
+-u(t) + V_R + V_L + y = 0
+$$
 
-💡**Ejemplo 3:** 
+lo que hicimos el anterior es nuestra ecuaciones del sistema la cual debemos reemplazar para hallar nuestro sistema de ecuaciones qué sería lo siguiente:
 
-| **Resultado** | **x = número de intentos hasta primer éxito** |
-|---------------|-----------------------------------------------|
-|       S       |                       1                       |
-|       FS      |                       2                       |
-|      FFS      |                       3                       |
-|      ...      |                      ...                      |
-|    FFFFFFS    |                       7                       |
-|      ...      |                      ...                      |
+$$
+u(t) + IR + L \frac{di}{dt} + y = 0
+$$
 
-Tabla 1. Tabla de ejemplo
+esto debe estar en términos de la variable y sin embargo se puede observar que aún no está por lo que debemos pasarlos a términos de esta variable y nos da lo siguiente:
 
-Cada tabla debe llevar la etiqueta que describa su contenido y numeración consecutiva para todas las tablas
+$$
+I = I_c = C \frac{dy}{dt} \Rightarrow \frac{di}{dt} = L C \frac{d}{dt}\left( \frac{dy}{dt} \right)
+$$
 
-## 8. Código
-Teniendo en cuenta que el curso requiere del desarrollo de código matlab, c, c++ u otro. Si requiere incluir pequeños segmentos de código en los apuntes hágalos de la siguiente manera:
+$$
+-u(t) + RC \frac{dy}{dt} + LC \frac{d^2y}{dt^2} + y = 0
+$$
+  
+## 📚Ejercicio 1:
 
-💡**Ejemplo 4:**
-```
-var sumar2 = function(numero) {
-  return numero + 2;
-}
-```
+En este ejercicio debemos obtener el modelo para  el circuito qué se muestra a continuación:
 
-## 9. Ejercicios
-Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
 
-## Rúbrica
-| 0-1                                                                                   | 1-2                                                                                  | 2-3                                                                                                                                                                               | 3-4                                                                                                                                                                       | 4-5                                                                                                                                                                               |
-|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Presenta menos del 10% de los temas o no presenta por  el medio y formato  solicitado | Presenta menos del 40% de los temas solicitados, y  cumple parcialmente la plantilla | Presenta menos del 60% de los temas solicitados (con descripciones, gráficos tablas, etc), y cumple  parcialmente la plantilla. No presenta la totalidad  de ejercicios resueltos | Presenta menos del 80% de los temas solicitados (con descripciones, gráficos, tablas, etc) y cumple con  la plantilla. No presenta  la totalidad de ejercicios  resueltos | Presenta el 100% de los temas vistos en clase (con descripciones, gráficos, tablas, etc), siguiendo totalmente la plantilla. presenta la  totalidad de los ejercicios solicitados |
+en este ejercicio podemos observar que tenemos 2 mallas y debemos hallar el valor de y por lo que a continuación se mostrará cómo podemos sacar nuestras ecuaciones para el modelo matemático eléctrico:
 
+**Solución completa**:
+
+$$
+-U + V_{R_1} + V_{R_2} + V_C = 0
+$$
+
+$$
+-U + j(R_1 + R_2) + V_C = 0
+$$
+
+$$
+I = I_C = C \frac{dV_C}{dt}
+$$
+
+$$
+-U + (R_1 + R_2)C \frac{dV_C}{dt}
+$$
+
+$$
+\frac{U - y}{R_1} = \frac{y - V_C}{R_2} \Rightarrow \frac{V_C}{R_2} = y \left( \frac{1}{R_1} + \frac{1}{R_2} \right) - \frac{U}{R_1}
+$$
+
+$$
+V_C = y \left( \frac{R_2}{R_1} + 1 \right) - \frac{R_2}{R_1} U
+$$
+
+$$
+\frac{dV_C}{dt} = \frac{dy}{dt} \left( \frac{R_2}{R_1} + 1 \right) - \frac{R_2}{R_1} \frac{dU}{dt}
+$$
+
+$$
+-u + (R_1 + R_2) C \frac{dy}{dt} \left( \frac{R_2}{R_1} + 1 \right) - \frac{R_2}{R_1} \frac{dU}{dt} + y \left( \frac{R_2}{R_1} + 1 \right) - \frac{R_2}{R_1} U
+$$
 ## 10. Conclusiones
 Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
 
