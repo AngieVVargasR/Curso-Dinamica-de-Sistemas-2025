@@ -183,7 +183,9 @@ $$
 
 
 ## 10. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
+En conclusión, podemos observar que los sistemas eléctricos pueden modelarse matemáticamente mediante distintos enfoques, como el método de mallas y el método de nodos. En este caso, el método de nodos resulta más sencillo, ya que permite obtener los datos de manera más directa. Sin embargo, el método de mallas también es una alternativa viable para encontrar un modelo matemático adecuado.
 
 ## 11. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
+(https://acrobat.adobe.com/id/urn:aaid:sc:US:118ebe01-b47f-43bc-94ec-d83ea4d8d95c
+https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
+https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf))
