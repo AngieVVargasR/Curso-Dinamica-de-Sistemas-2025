@@ -387,10 +387,10 @@ $$
 T_m - Mr \frac{d^2y}{dt^2} - \frac{B_m}{r} \frac{dy}{dt} = \frac{J_m}{r} \frac{d^2y}{dt^2}
 $$
 
-## 10. Conclusiones
+## 9. Conclusiones
 En conclusión, en esta sección podemos observar cómo muchos de los conceptos que ya poseíamos previamente pueden ser retomados y aplicados nuevamente para la construcción de modelos matemáticos en diversos gráficos. Además, es posible identificar la manera en que cada elemento posee características propias, como su energía, potencia y trabajo, las cuales pueden expresarse a través de fórmulas específicas. Estas ecuaciones nos permiten comprender mejor sus propiedades y, en consecuencia, desarrollar modelos matemáticos precisos que faciliten su análisis y resolución.
 
-## 11. Referencias
+## 10. Referencias
 (https://acrobat.adobe.com/id/urn:aaid:sc:US:77379dba-797d-43ee-96b6-6cad6c837216)
 https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
 https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.p
