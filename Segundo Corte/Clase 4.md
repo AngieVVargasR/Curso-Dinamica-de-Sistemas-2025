@@ -182,10 +182,10 @@ I_3 = C_2 \frac{de_0}{dt} \Rightarrow -e_x = R_2 C_2 \frac{de_0}{dt} + e_0
 $$
 
 
-## 10. Conclusiones
+## 3. Conclusiones
 En conclusión, podemos observar que los sistemas eléctricos pueden modelarse matemáticamente mediante distintos enfoques, como el método de mallas y el método de nodos. En este caso, el método de nodos resulta más sencillo, ya que permite obtener los datos de manera más directa. Sin embargo, el método de mallas también es una alternativa viable para encontrar un modelo matemático adecuado.
 
-## 11. Referencias
+## 4. Referencias
 (https://acrobat.adobe.com/id/urn:aaid:sc:US:118ebe01-b47f-43bc-94ec-d83ea4d8d95c
 https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
 https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf))
