@@ -8,9 +8,6 @@ En esta sección se procederá a dar la explicación de qué es un sistema mecá
     <img src="./Imagenes/Sistema. PNG.PNG" alt="Figura de sistema" />
 </p>
 
-
-
-
 Lo que quiere decir esto es una breve explicación de que un sistema consta de varios elementos eh conectados entre sí cuyo objetivo es realizar algún procedimiento o lograr un objetivo común.
 En la gráfica mencionada, se pueden identificar distintos tipos de sistemas, cada uno diseñado para cumplir con un propósito específico.
 
@@ -39,6 +36,7 @@ Básicamente los resortes son elementos que pueden almacenar energía mecánica 
     <img src="./Imagenes/Resorte 1..PNG" alt="Principio general" />
 </p>
 
+F = kx = k(x_1 - x_2)
 
 
 
@@ -47,7 +45,7 @@ Básicamente los resortes son elementos que pueden almacenar energía mecánica 
 
 
 
-                                            F = kx = k(x_1 - x_2)
+
 ### 2.2. Amortiguador:
 >🔑 *Amortiguador:* 
 
