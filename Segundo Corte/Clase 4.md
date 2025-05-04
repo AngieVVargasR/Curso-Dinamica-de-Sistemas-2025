@@ -101,6 +101,87 @@ $$
 $$
 -u + (R_1 + R_2) C \frac{dy}{dt} \left( \frac{R_2}{R_1} + 1 \right) - \frac{R_2}{R_1} \frac{dU}{dt} + y \left( \frac{R_2}{R_1} + 1 \right) - \frac{R_2}{R_1} U
 $$
+
+## 2. Aplicándo nodos:
+En este caso para realizar modelos matemáticos eléctricos también podemos no sólo aplicar el método de maya sino también el método de nodos qué es el método que a continuación vamos a explicar.
+
+Este método también aplica la ley de kirchhoff pero en este caso de Corrientes LKC. Y se refiere a un nodo como un punto de conexión de uno o varios elementos sólo se le aplica corriente en los nodos qué dividen este y a continuación mostraremos un ejemplo de cómo se pueden aplicar los nodos.
+
+💡**Ejemplo 2:** 
+
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+
+en este caso procedemos a aplicar las siguientes ocasiones de la siguiente manera y teniendo como resultado lo siguiente:
+
+**LKC**:
+
+$$
+\sum i = 0
+$$
+
+$$
+i_u - i_1 - i_c = 0
+$$
+
+$$
+i_u(t) - \frac{V_{AB}}{0.5} - 2 \frac{dy(t)}{dt} = 0
+$$
+
+$$
+V_{AB} = i_c \cdot 1 + y(t) \Rightarrow V_{AB} = 2 \frac{dy(t)}{dt} + y(t)
+$$
+
+$$
+u(t) - \frac{2}{0.5} \frac{dy(t)}{dt} - \frac{1}{0.5} y(t) - 2 \frac{dy(t)}{dt} = 0
+$$
+
+$$
+u(t) = -6 \frac{dy(t)}{dt} - 2y(t)
+$$
+
+## 📚Ejercicio 2:
+por último realizamos la siguiente actividad:
+
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+la cual aplicando los métodos anteriormente utilizados nos da resultado las siguientes ecuaciones y modelos matemáticos:
+
+$$
+e_i(t) - i_{c_1} - i R_2 = 0
+$$
+
+$$
+V_C = i \cdot \frac{dV(t)}{dt}
+$$
+
+$$
+e_i(t) - \frac{V_{AB}}{C_1} - C_2 \frac{de_0}{dt} = 0
+$$
+
+$$
+e_i(t) = C_1 \frac{dV_{AB}}{dt} - C_2 \frac{de_0}{dt}
+$$
+
+$$
+I_1 + I_2 + I_3 = 0
+$$
+
+$$
+\frac{e_i - e_x}{R_1} + C_1 \frac{d(o - e_x)}{dt} + \frac{e_0 - e_x}{R_2} = 0
+$$
+
+$$
+-e_x = V_{R_2} + e_0 \Rightarrow -e_x = R_2 I_3 + e_0
+$$
+
+$$
+I_3 = C_2 \frac{de_0}{dt} \Rightarrow -e_x = R_2 C_2 \frac{de_0}{dt} + e_0
+$$
+
+
 ## 10. Conclusiones
 Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
 
