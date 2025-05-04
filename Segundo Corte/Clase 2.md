@@ -5,10 +5,10 @@ En esta sección se procederá a dar la explicación de qué es un sistema mecá
 
 
 <p align="center">
-    <img src="./imagenes/Sistema.PNG" alt="Figura de sistema" />
+    <img src="./Imagenes/Sistema. PNG.PNG" alt="Figura de sistema" />
 </p>
 
-![image](https://github.com/user-attachments/assets/c254f065-b391-43f2-a4a4-b758938945f0)
+
 
 
 Lo que quiere decir esto es una breve explicación de que un sistema consta de varios elementos eh conectados entre sí cuyo objetivo es realizar algún procedimiento o lograr un objetivo común.
