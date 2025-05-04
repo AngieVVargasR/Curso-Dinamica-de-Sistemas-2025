@@ -36,18 +36,27 @@ Básicamente los resortes son elementos que pueden almacenar energía mecánica 
     <img src="./Imagenes/Resorte 1..PNG" alt="Principio general" />
 </p>
 
+A continuación procedemos a ver una de las ecuaciones que representa un resorte el cual tiene sus 2 extremos colocados en alguna superficie:
+
+$$
 F = kx = k(x_1 - x_2)
-
-
-
-
-
-
-
-
+$$
 
 ### 2.2. Amortiguador:
->🔑 *Amortiguador:* 
+>🔑 *Amortiguador:* Dispositivo que sirve para compensar y disminuir el efecto de choques, sacudidas o movimientos bruscos en aparatos mecánicos.
+
+En este caso este es un elemento que genera friccion propia por lo que puede reducir y compensar algun choque a diferencia del resorte que este se devuelve a su posicion de reposo.
+
+<p align="center">
+    <img src="./Imagenes/Resorte 2..PNG" alt="Principio general" />
+</p>
+En la imagen se puede observar cómo un amortiguador tiene un comportamiento lineal que es completamente proporcional al desplazamiento y la velocidad de este desplazamiento.
+
+$$
+F = kx = k(x_1 - x_2)
+$$
+
+En cuanto a esta ecuación es un principio que se utiliza para representar la fricción entre una masa y la superficie y este se le denomina constante de fricción viscosa
 
 ## 3. Tipos de friccion:
 ### 3.1. Friccion  en seco:
