@@ -31,7 +31,23 @@ En este punto se estará hablando de sistemas donde se utilizan elementos como l
 
 Básicamente los resortes son elementos que pueden almacenar energía mecánica en este caso se pueden estirar o comprimir lo que hace que este elemento vuelva a su estado de reposo.
 
-imagen 
+<p align="center">
+    <img src="./Imagenes/Resorte 2..PNG" alt="Principio general" />
+</p>
+
+<p align="center">
+    <img src="./Imagenes/Resorte 1..PNG" alt="Principio general" />
+</p>
+
+
+
+
+
+
+
+
+
+                                            F = kx = k(x_1 - x_2)
 ### 2.2. Amortiguador:
 >🔑 *Amortiguador:* 
 
