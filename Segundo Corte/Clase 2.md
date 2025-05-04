@@ -175,6 +175,7 @@ $$
 
 $$
 u(t) + m \cdot g - k_2 \cdot y(t) - K \cdot \dot{y}(t) = m \cdot \ddot{y}(t)
+$$
 
 ## 5. Sistemas mecanicos mas complejos:
 en este ejemplo o diagrama se van a presentar 2 meses 3 resortes y un amortiguador conectados entre sí como se ve en la imagen por lo que va a ser un poco más complejo y se va a desarrollar de la siguiente manera:
