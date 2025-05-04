@@ -3,6 +3,11 @@ Felipe Cruz Pineda, Angie Vargas- M6A
 En esta sección se procederá a dar la explicación de qué es un sistema mecánico y cómo se puede representar también agregando sus distintos tipos y distintas ecuaciones.
 >🔑 *Sistema:* en este caso sistema se refiere a un conjunto de elementos interconectados que trabajan juntos para lograr un objetivo común cuyo comportamiento cambia en el tiempo.
 
+
+<p align="center">
+    <img src="./imagenes/Sistema.PNG" alt="Figura de sistema" />
+</p>
+
 ![image](https://github.com/user-attachments/assets/c254f065-b391-43f2-a4a4-b758938945f0)
 
 
