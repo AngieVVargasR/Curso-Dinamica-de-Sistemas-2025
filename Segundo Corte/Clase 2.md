@@ -305,15 +305,27 @@ en este ejercicio tenemos un sistema mecánico por lo que vamos allá su sistema
 y por último pasamos a allá en nuestras ecuaciones que quedan de la siguiente manera:
 
 $$
-a = \frac{d^2 x_2(t)}
+a=\frac{d^2}{dt^2}y(t)
 $$
 
 $$
-K_2(x_1 - x_2)(t) - K_1 y(t) + b \cdot \dot{y}(t) = m_1 \cdot \dot{y}(t)
+f_B(t)=B\frac{d}{dt}y(t)
 $$
 
 $$
-0.1(x_1(t) - x_2(t)) = 0.1y(t) + 0.05\dot{y}(t) = 10 \, \text{kg} \cdot \ddot{y}(t)
+f_{k_{1}}(t)=k_1y(t)
+$$
+
+$$
+f_{k_{2}}(t)=k_2y(t)
+$$
+
+$$
+f(t)-f_{k_1}(t)-f_{k_2}-f_g(t) = M\cdot a
+$$
+
+$$
+f(t) -K_1y(t) - K_2y(t)-B\frac{d}{dt}y(t) = M\frac{d^2}{dt^2}y(t)
 $$
 
 ## 📚Ejercicio 2:
@@ -329,9 +341,33 @@ En este ejercicio que se ve en la imagen también debemos hallar sus ecuaciones 
 
 ya teniendo nuestro diagrama de cuerpo libre pero seguimos ayer nuestras ecuaciones de la siguiente manera:
 
+$$
+a = \frac{d^2}{dt^2}y_2(t)
+$$
 
+$$
+f_B(t)=B\frac{d}{dt}y_2(t)
+$$
 
+$$
+f_k(t) = K[y_1(t)-y_2(t)]
+$$
 
+$$
+f_k(t)-f_B(t)  =M\cdot a
+$$
+
+$$
+K[y_1(t)-y_2(t)]-B\frac{d}{dt}y_2(t)=M\frac{d^2}{dt^2}y_2(t)
+$$
+
+$$
+Ky_1(t)-Ky_2(t)-B\frac{d}{dt}y_2(t)=M\frac{d^2}{dt^2}y_2(t)
+$$
+
+$$
+K_y1(t) = M\frac{d^2}{dt^2}y_2(t)+B\frac{d}{dt}y_2(t) + K y_2(t)
+$$
 
 ## 8. Conclusiones
 En conclusión, en este apartado podemos observar que muchos elementos mecánicos no solo requieren una ecuación para su análisis, sino también la aplicación de una fuerza externa. Además, hemos aprendido la importancia de realizar un diagrama de cuerpo libre, ya que este nos permite identificar las fuerzas que actúan sobre el cuerpo y comprender su comportamiento.
