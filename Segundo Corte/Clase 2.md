@@ -48,8 +48,9 @@ $$
 En este caso este es un elemento que genera friccion propia por lo que puede reducir y compensar algun choque a diferencia del resorte que este se devuelve a su posicion de reposo.
 
 <p align="center">
-    <img src="./ amortiguador.PNG" alt= "Amortiguador" />
+    <img src="./Imagenes/amortiguador.PNG" alt="Resorte" />
 </p>
+
 En la imagen se puede observar cómo un amortiguador tiene un comportamiento lineal que es completamente proporcional al desplazamiento y la velocidad de este desplazamiento.
 
 A continuación procederemos a observar una de las ecuaciones que representa el amortiguador:
@@ -67,7 +68,7 @@ En cuanto a esta ecuación es un principio que se utiliza para representar la fr
 Básicamente lo que nos quiere decir esto es que ninguna de las superficies tiene algún tipo de lubricación que pueda facilitar el deslizamiento por lo que se va a producir una fricción en seco que quiere decir que las 2 partes quieren chocan no tienen la suficiente lubricación para trabajar de manera adecuada.
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/Friccion seca.PNG" alt="Frinccion en seco" />
 </p>
 
 en la imagen podemos observar un diagrama de cuerpo libre que tiene una fricción en seco lo que quiere decir que el cuadrado huelva jugo que se presenta en la imagen no tiene ningún tipo de líquido y la superficie en la que está tampoco por lo que al desplazarse va a tener una fricción en seco.
@@ -80,7 +81,7 @@ En general existen también distintos tipos de fricción como fricción estátic
 Básicamente lo que nos quiere decir esto es que la fricción por rodamiento es aquella que cuando un cuerpo en este caso con forma de circunferencia o en general se puede producir esta fricción ya que siempre va a haber una fuerza que se oponga al movimiento cuando este esté desplazándose.
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/friccion rodamineto.PNG" alt="Friccion rodamiento" />
 </p>
 
 ## 4. Sistemas mecanicos:
@@ -90,7 +91,7 @@ En este apartado estaremos viendo cómo se puede generar un sistema aplicando ma
 a continuación se va a presentar una imagen donde se va a evaluar sufren a mi no físico que modela el sistema y cómo se puede resolver:
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/masa,resorte,a.PNG" alt="Resorte" />
 </p>
 
 en este caso para poder sacar un modelo matemático del sistema procederemos a utilizar las siguientes ecuaciones:
@@ -105,7 +106,7 @@ Ya cuando tenemos este punto proseguimos hacer un diagrama de cuerpo libre de la
 
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/diagrama m,r,a.PNG" alt="Resorte" />
 </p>
 
 dónde u significa la fuerza que se le está ejerciendo la masa FR la fuerza que tiene el resorte o la fuerza que está ejerciendo el resorte en la masa Y FF la fuerza de fricción que está ejerciendo esa masa contra la superficie.
@@ -152,14 +153,14 @@ Luego de reemplazar con las fórmulas que hicieron inicialmente procedemos a ten
 En este ejemplo uno se debe encontrar el modelo matemático para el sistema que representa la suspensión de un automóvil.
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/ejemplo 1.PNG" alt="ejemplo" />
 </p>
 
 Siguiendo los pasos de lo anterior procedimos a hacer el diagrama de cuerpo libre qué queda de la siguiente manera:
 
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/diagrama ejemplo 1.PNG" alt="Resorte" />
 </p>
 
 ya teniendo nuestro diagrama proseguimos hacer ya ya nuestras ecuaciones que quedan de la siguiente manera:
@@ -179,7 +180,7 @@ u(t) + m \cdot g - k_2 \cdot y(t) - K \cdot \dot{y}(t) = m \cdot \ddot{y}(t)
 en este ejemplo o diagrama se van a presentar 2 meses 3 resortes y un amortiguador conectados entre sí como se ve en la imagen por lo que va a ser un poco más complejo y se va a desarrollar de la siguiente manera:
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/sistema complejo.PNG" alt="Resorte" />
 </p>
 
 Nuevamente lo que vamos a hacer es realizar los diagramas de cuerpo libre en este caso procedemos a hacer uno para cada masa que hay en el diagrama:
@@ -187,7 +188,7 @@ Nuevamente lo que vamos a hacer es realizar los diagramas de cuerpo libre en est
 ### Para la masa 1:
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/masa1.PNG" alt="Resorte" />
 </p>
 
 y a continuación lo que haremos es realizar y hallar nuestras ecuaciones de la siguiente manera:
@@ -207,7 +208,7 @@ Ya teniendo las ecuaciones para nuestra masa uno procedemos a hacer la masa 2.
 ### Para la masa 2:
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/masa2.PNG" alt="Resorte" />
 </p>
 
 para esta masa próximos de igual manera a hacer lo mismo que es hallar nuestras ecuaciones de la siguiente manera:
@@ -240,7 +241,7 @@ Por lo que al ser un movimiento rotacional van a cambiar sus leyes y sus fórmul
 a continuación procedemos a hacer el mismo procedimiento que se lleva a cabo en lo anterior que como primer paso tiene hacer el diagrama de cuerpo libre en este caso de nuestro sistema de rotación:
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/rotacional.PNG" alt="Resorte" />
 </p>
 
 
@@ -256,13 +257,20 @@ en este caso el ejemplo 2 es un ejemplo de sistema masa resorte amortiguador de 
 
 
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/ejemplo 2.PNG" alt="Resorte" />
 </p>
 
 se procede a hacer el diagrama de cuerpo libre queda como resultado lo siguiente:
 
+### Para la masa 1:
+
 <p align="center">
-    <img src="./Imagenes/Resorte 2..PNG" alt="Resorte" />
+    <img src="./Imagenes/eje2 masa1.PNG" alt="Resorte" />
+</p>
+
+### Para la masa 2:
+<p align="center">
+    <img src="./Imagenes/eje2 masa2.PNG" alt="Resorte" />
 </p>
 
 y por último procedemos a realizar nuestras ecuaciones dando lo siguiente:
