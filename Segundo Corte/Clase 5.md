@@ -1,81 +1,117 @@
-# Titulo de la clase 
-El título de cada clase, correspondiente al tema general que se trabaje en clase. Siempre después de cada título de clase, redactar una breve introducción (mínimo un párrafo) que de una mirada general al tema
-## 1. Subtítulos
-Agregue todos los subtítulos que considere necesarios para estructurar el contenido de la clase. Es importante que considere jerarquías de los temas para definir el orden de estos subtítulos. Cada subtítulo debe ir numerado como una sección, de la manera en que lo presenta esta plantilla
+Felipe Cruz Pineda, Angie Vargas- M6A
+# CIRCUITOS CON AMPLIFICADORES OPERACIONALES:
 
-## 2. Definiciones
-Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
->🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
+En la última clase el segundo corte antes del parcial se explicó los sistemas eléctricos pero basados en circuitos con amplificadores operacionales que es lo que vamos a profundizar en este apartado.
 
-## 3. Subsecciones
-Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
-### 3.1. Título de subsecciones
-Para la creación de estas subsecciones debe utilizar un tamaño de letra más pequeño, por lo tanto utilice la etiqueta '###' 
-### 3.2. Numeración de subsecciones
-Siga la numeración de la sección seguida de un punto y luego el número de la subsección.
+## 1. Amplificador no inversor:
 
-## 4. Ejemplos
-Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
+<p align="center">
+    <img src="./Imagenes/AMP1.PNG" alt="ejemplo" />
+</p>
 
-## 5. Ecuaciones
-Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y final de la ecuación para que la ecuación quede centrada ocupando una línea. Si se quiere que la ecuación quede integrada en el texto debe utilizar la etiqueta '$' al comienzo y final de la ecuación. Las ecuaciones pueden ser editadas utilizando el código LATEX, en el siguiente enlace encuentran un editor de ecuaciones que les genera el código. http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp . Sin embargo hay muchas otras herramientas que pueden utilizar para esto.
+En este suelen utilizar las leyes de kirchhoff y el modelo simplificado de amplificador operacional.
+Unas de las pautas que hay que tener muy en cuenta de esto son las:Unas de las pautas que hay que tener muy en cuenta de esto son las siguientes:
 
-💡**Ejemplo 1:** si se va a representar la ecuación de la ley de Ohm se puede mostrar así $R=\frac{V}{I}$ o también,
+- la tensión en ambas entradas del amplificador son iguales V+ = V-
+- la corriente en las entradas del amplificador ese 0
+- la impedancia de la entrada es muy grande
+- la impedancia de salida es muy pequeña
+  
 
-$$R=\frac{V}{I}$$
+💡**Ejemplo 1:** 
 
-## 6. Figuras
-Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las figuras de las presentaciones**. Para incluir figuras puede seguir los siguientes pasos:
-* Primero escribimos ![]().
-* Después escribimos, dentro de los corchetes, el texto alternativo. Este es opcional y solo entra en acción cuando no se puede cargar la imagen correctamente.
-* Después escribimos, dentro de los paréntesis, la ubicación del archivo (ya sea una url o una ubicación dentro de algun folder local). Se recomienda poner las imágenes en una carpeta que se llame imágenes dentro del repositorio github para que no tengan problemas al cargar las imágenes.
+En este ejemplo procedemos a realizarlo por método de malla ya que es una trayectoria cerrada por lo que sus elementos están en serie y su corriente va hacia una misma dirección.
 
-💡**Ejemplo 2:**
+<p align="center">
+    <img src="./Imagenes/AMP2.PNG" alt="ejemplo" />
+</p>
 
-![Figura de prueba](images/plantilla/Captura2.PNG)
+Para poder solucionar los debemos tener en cuenta lo siguiente:
+- identificar cuántas mallas hay (en el caso de nuestro primer ejemplo sólo tenemos una malla cerrada)
+- dibujar las Corrientes de las mallas( qué quiere decir esto hay que dibujar en qué sentido va la corriente cómo le indica la imagen)
+- se debe también escribir los signos de cada elemento dependiendo hacia qué sentido va
+- y por último se debe hallar la ecuación.
 
-Figura 1. Figura de prueba
+Se prefiere utilizar el método de nor sin embargo la salida del amplificador no lo analizamos nunca debido a que hay que analizar el circuito del amplificador antes. Teniendo esto un poco más claro podemos observar que estos circuitos se pueden basar en las siguientes ecuaciones:
 
-Incluya la respectiva etiqueta a modo de descripción de la figura y mantenga numeración consecutiva para todas las figuras de la clase.
+$$
+I_1 - I_2 = 0
+$$
 
-## 7. Tablas
-En caso de necesitar la inclusión de tablas para organizar información se recomienda el uso de la herramienta del siguiente enlace https://www.tablesgenerator.com/markdown_tables , la cual permite organizar la información dentro de la tabla y genera el código markdown automáticamente:
+$$
+\frac{e_0 - V_x}{R_2} - \frac{V_x - 0}{R_1} = 0
+$$
 
-💡**Ejemplo 3:** 
+$$
+V_x = e_i
+$$
 
-| **Resultado** | **x = número de intentos hasta primer éxito** |
-|---------------|-----------------------------------------------|
-|       S       |                       1                       |
-|       FS      |                       2                       |
-|      FFS      |                       3                       |
-|      ...      |                      ...                      |
-|    FFFFFFS    |                       7                       |
-|      ...      |                      ...                      |
+$$
+\frac{e_0 - e_i}{R_2} - \frac{e_i}{R_1} = 0
+$$
 
-Tabla 1. Tabla de ejemplo
+$$
+e_0 = e_i \left( \frac{1}{R_2} + \frac{1}{R_1} \right) R_2 \Rightarrow e_0 = e_i \left( 1 + \frac{R_2}{R_1} \right)
+$$
 
-Cada tabla debe llevar la etiqueta que describa su contenido y numeración consecutiva para todas las tablas
+### con elementos almacenadores de energía:
 
-## 8. Código
-Teniendo en cuenta que el curso requiere del desarrollo de código matlab, c, c++ u otro. Si requiere incluir pequeños segmentos de código en los apuntes hágalos de la siguiente manera:
+<p align="center">
+    <img src="./Imagenes/AMP3.PNG" alt="ejemplo" />
+</p>
 
-💡**Ejemplo 4:**
-```
-var sumar2 = function(numero) {
-  return numero + 2;
-}
-```
+$$
+i_1 - i_2 - i_3 = 0
+$$
 
-## 9. Ejercicios
-Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
+$$
+\frac{e_i - e'}{R_1} - \frac{e' - e_0}{R_2} - C \frac{d(e' - e_0)}{dt} = 0
+$$
 
-## Rúbrica
-| 0-1                                                                                   | 1-2                                                                                  | 2-3                                                                                                                                                                               | 3-4                                                                                                                                                                       | 4-5                                                                                                                                                                               |
-|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Presenta menos del 10% de los temas o no presenta por  el medio y formato  solicitado | Presenta menos del 40% de los temas solicitados, y  cumple parcialmente la plantilla | Presenta menos del 60% de los temas solicitados (con descripciones, gráficos tablas, etc), y cumple  parcialmente la plantilla. No presenta la totalidad  de ejercicios resueltos | Presenta menos del 80% de los temas solicitados (con descripciones, gráficos, tablas, etc) y cumple con  la plantilla. No presenta  la totalidad de ejercicios  resueltos | Presenta el 100% de los temas vistos en clase (con descripciones, gráficos, tablas, etc), siguiendo totalmente la plantilla. presenta la  totalidad de los ejercicios solicitados |
+$$
+e' = 0
+$$
+
+$$
+\frac{e_i}{R_1} - \frac{-e_0}{R_2} - C \frac{d(-e_0)}{dt} = 0
+$$
+
+$$
+\frac{e_i}{R_1} = -\frac{e_0}{R_2} - C \frac{d(e_0)}{dt}
+$$
+
+## 📚Ejercicio 1:
+En esta actividad procederemos a solucionar un ejercicio dejado en clase:
+<p align="center">
+    <img src="./Imagenes/AMP4.PNG" alt="ejemplo" />
+</p>
+
+Dando como resultado lo siguiente:
+
+$$
+i_1 + i_2 - i_3 = i_4 = 0
+$$
+
+$$
+E_i - V_x \Rightarrow \text{multi}
+$$
+
+$$
+e_i \frac{d(E_i - V_x)}{dt} + \frac{E_i - V_x}{R_1} - \frac{R_2 \, dV_x - E}{dt} - \frac{V_x - E}{R_2} = 0
+$$
+
+$$
+V_x = 0
+$$
+
+$$
+e_i \frac{dE_i}{dt} + \frac{E_i}{R_1} + L_2 \frac{dE}{dt} + \frac{E}{R_2} = 0
+$$
 
 ## 10. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
+En conclusión los sistemas eléctricos permiten modelar y simular el comportamiento de redes eléctricas bajo distintos escenarios. Además, se pone a prueba la estabilidad del sistema, lo que resulta clave para evaluar el funcionamiento del circuito y su diagrama. A través del modelo matemático, se pueden analizar diferentes condiciones y encontrar soluciones óptimas para mejorar la eficiencia y confiabilidad del sistema eléctrico.
 
 ## 11. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
+https://acrobat.adobe.com/id/urn:aaid:sc:US:118ebe01-b47f-43bc-94ec-d83ea4d8d95c
+https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
+https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf)
