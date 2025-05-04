@@ -293,13 +293,13 @@ $$
 ## 📚Ejercicio 1:
 
 <p align="center">
-    <img src="./Imagenes/eje2 masa2.PNG" alt="Resorte" />
+    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
 </p>
 
 en este ejercicio tenemos un sistema mecánico por lo que vamos allá su sistema de ecuaciones:
  realizamos el paso a paso y en este caso pues diseñamos el diagrama de cuerpo libre qué es el siguiente:
 <p align="center">
-    <img src="./Imagenes/eje2 masa2.PNG" alt="Resorte" />
+    <img src="./Imagenes/eje1.1.PNG" alt="Resorte" />
 </p>
 
 y por último pasamos a allá en nuestras ecuaciones que quedan de la siguiente manera:
@@ -318,13 +318,13 @@ $$
 
 ## 📚Ejercicio 2:
 <p align="center">
-    <img src="./Imagenes/eje2 masa2.PNG" alt="Resorte" />
+    <img src="./Imagenes/EJE2.PNG" alt="Resorte" />
 </p>
 
 En este ejercicio que se ve en la imagen también debemos hallar sus ecuaciones por lo que procedimos a hacer primeramente el diagrama de cuerpo libre.
 
 <p align="center">
-    <img src="./Imagenes/eje2 masa2.PNG" alt="Resorte" />
+    <img src="./Imagenes/EJE2.2.PNG" alt="Resorte" />
 </p>
 
 ya teniendo nuestro diagrama de cuerpo libre pero seguimos ayer nuestras ecuaciones de la siguiente manera:
@@ -341,4 +341,4 @@ Asimismo, dependiendo del tipo de elemento anclado a la masa, este adquirirá ci
 https://acrobat.adobe.com/id/urn:aaid:sc:US:71394447-b9cc-4ebe-8898-e8731e65012f
 https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
 https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
-https://es.scribd.com/document/545318672/modelado-de-sistemas-mecanicos-I
+
