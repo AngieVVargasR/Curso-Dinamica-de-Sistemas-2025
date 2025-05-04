@@ -158,7 +158,7 @@ $$
 en este caso nos indica qué el ejercicio no tiene fricción por lo que es un sistema conservativo y lo podemos observar en la siguiente imagen:
 
 <p align="center">
-    <img src="./Imagenes/ejemplo 1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
 </p>
 
 Por lo tanto tenemos que resolver nos da lo siguiente:
@@ -182,7 +182,7 @@ $$
 en el segundo ejemplo nos presenta un caso vertical en este caso se debe tener en cuenta la energía debido a la posición inicial ese caso se puede evidenciar en la siguiente imagen:
 
 <p align="center">
-    <img src="./Imagenes/ejemplo 1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/EJE2.PNG" alt="ejemplo" />
 </p>
 
 Continuando con nuestro caso procedemos a obtener la primera ecuación que en este caso va a ser el delta que significa el cambio de posición debido a nuestra posición inicial del ejercicio y es el siguiente:
@@ -243,7 +243,7 @@ En el ejemplo 3 nos dan un cilindro que no se desliza por lo que se considera un
 
 
 <p align="center">
-    <img src="./Imagenes/ejemplo 1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/EJE3.PNG" alt="ejemplo" />
 </p>
 
 entonces los empezamos a resolver con las siguientes fórmulas:
@@ -308,7 +308,7 @@ en los casos frecuentes podemos observar 2 imágenes las cuales nos permiten ver
 
 
 <p align="center">
-    <img src="./Imagenes/ejemplo 1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/CASO1.PNG" alt="ejemplo" />
 </p>
 
 $$
@@ -316,7 +316,7 @@ J = \frac{W}{g}\left(\frac{L}{2\pi}\right)^2
 $$
 
 <p align="center">
-    <img src="./Imagenes/ejemplo 1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/CASO2.PNG" alt="ejemplo" />
 </p>
 
 $$
@@ -329,7 +329,7 @@ En este apartado también podremos observar ciertas imágenes que combinan engra
 
 
 <p align="center">
-    <img src="./Imagenes/ejemplo 1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/TREN 1.PNG" alt="ejemplo" />
 </p>
 
 $$
@@ -337,7 +337,7 @@ r_1 N_2 = r_2 N_1
 $$
 
 <p align="center">
-    <img src="./Imagenes/ejemplo 1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/TREN 2.PNG" alt="ejemplo" />
 </p>
 
 $$
@@ -356,13 +356,13 @@ $$
 en este ejemplo se nos da un sistema qué tiene una masa unas poleas y un motor como en los casos anteriores debemos realizar nuestro diagrama de cuerpo libre primero y ahí sí resolver:
 
 <p align="center">
-    <img src="./Imagenes/ejemplo 1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/EJE4.PNG" alt="ejemplo" />
 </p>
 
 diagrama de cuerpo libre:
 
 <p align="center">
-    <img src="./Imagenes/ejemplo 1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/DIAGRAMAEJE4.PNG" alt="ejemplo" />
 </p>
 
 y procedemos a realizar la solución para hallar nuestras ecuaciones del sistema que como resultado da lo siguiente:
