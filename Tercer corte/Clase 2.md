@@ -8,6 +8,43 @@ En este apartado se procederá a explicar el tema de función de transferencia y
  Básicamente lo que nos quiere decir esto es que la función de transferencia es una representación matemática que se encuentra en el dominio de la plaza logrando que se pueda analizar la salida sobre la entrada del sistema.
  
  A continuación se representa tara este concepto con una fórmula para entenderla mejor:
+ 
+$$
+Se despeja $\frac{salida}{Entrada}$ es decir: $\frac{Y(s)}{U(s)}$
+$$
+
+se debe tener en cuenta que para este caso las entradas o condiciones iniciales de la ecuación diferencial van a ser iguales a cero sin embargo sólo se aplica este caso sí se van a hacer funciones de transferencia en el caso de querer solucionar ecuación diferencial puntualmente son necesarias las condiciones iniciales y no necesariamente van a ser cero.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <p align="center">
