@@ -126,7 +126,7 @@ El siguiente paso para continuar con el tema es ubicar los ceros en la gráfica 
 
 
 <p align="center">
-    <img src="./Imagenes/ u.z.PNG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/ u.z.JPG.JPG" alt="Ubicación de los zeros" />
 </p>
 
 💡**Ejemplo 2:**
