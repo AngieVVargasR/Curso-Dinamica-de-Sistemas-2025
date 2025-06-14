@@ -12,8 +12,13 @@ En este apartado se procederá a explicar el tema de función de transferencia y
 $$
 Se despeja $\frac{salida}{Entrada}$ es decir: $\frac{Y(s)}{U(s)}$
 $$
+>[!NOTE]
+> se debe tener en cuenta que para este caso las entradas o condiciones iniciales de la ecuación diferencial van a ser iguales a cero sin embargo sólo se aplica este caso sí se van a hacer funciones de transferencia en el caso de querer solucionar ecuación diferencial puntualmente son necesarias las condiciones iniciales y no necesariamente van a ser cero.
 
-se debe tener en cuenta que para este caso las entradas o condiciones iniciales de la ecuación diferencial van a ser iguales a cero sin embargo sólo se aplica este caso sí se van a hacer funciones de transferencia en el caso de querer solucionar ecuación diferencial puntualmente son necesarias las condiciones iniciales y no necesariamente van a ser cero.
+## CLASIFICACIÓN DE LAS FUNCIONES DE TRANSFERENCIA:
+Antes de la clasificación de estas funciones se debe tener en cuenta como puede lucir una función de transferencia por lo que a continuación veremos cómo se puede expresar esta misma:
+
+>🔑 * una función de transferencia se puede expresar de la siguiente manera:*
 
 
 
