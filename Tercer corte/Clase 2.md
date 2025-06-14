@@ -1,7 +1,13 @@
 Felipe Cruz Pineda, Angie Vargas- M6A
-# SISTEMAS MECANICOS 1 
-En esta sección se procederá a dar la explicación de qué es un sistema mecánico y cómo se puede representar también agregando sus distintos tipos y distintas ecuaciones.
->🔑 *Sistema:* en este caso sistema se refiere a un conjunto de elementos interconectados que trabajan juntos para lograr un objetivo común cuyo comportamiento cambia en el tiempo.
+# FUNCIÓN DE TRANSFERENCIA 
+En este apartado se procederá a explicar el tema de función de transferencia y cómo se puede realizar o resolver esta misma a continuación dejaremos la explicación:
+
+>🔑 * función de transferencia:* En el área de control se usa otro tipo de representación matemática de denominada función de transferencia.
+>Esta consiste en una transformada de laplace de la ecuación diferencial.
+
+ Básicamente lo que nos quiere decir esto es que la función de transferencia es una representación matemática que se encuentra en el dominio de la plaza logrando que se pueda analizar la salida sobre la entrada del sistema.
+ 
+ A continuación se representa tara este concepto con una fórmula para entenderla mejor:
 
 
 <p align="center">
