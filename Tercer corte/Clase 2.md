@@ -125,9 +125,11 @@ $$
 El siguiente paso para continuar con el tema es ubicar los ceros en la gráfica por lo que a continuación mostraremos la gráfica de los ceros de nuestra función de transferencia anterior:
 
 
+
 <p align="center">
-    <img src="./Imagenes/ u.z.JPG.JPG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/zeros.PNG" alt="Ubicación de los zeros" />
 </p>
+
 
 💡**Ejemplo 2:**
 
@@ -169,14 +171,14 @@ $$
 ### 3.2. Ubicación de los polos 
 
 <p align="center">
-    <img src="./Imagenes/Principio general.PNG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/polos.PNG" alt="Ubicación de los polos" />
 </p>
 
 ### 3.3. Ubicación general de los polos y los zeros en la grafica:
 En este apartado podremos observar una gráfica donde se podrán ver los polos representados con una x.
 
 <p align="center">
-    <img src="./Imagenes/Principio general.PNG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/zeros polos.PNG" alt="Ubicación de los zeros" />
 </p>
 
 💡**Ejemplo 3:** 
@@ -240,7 +242,7 @@ $$
 Por ultimo para terminar de explicar como se realiza el teorema del valor final procederemos a colocar una imagen que muestra como se comporta el ejemplo anterior.
 
 <p align="center">
-    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
+    <img src="./Imagenes/final.PNG" alt="Resorte" />
 </p>
 
 
@@ -266,7 +268,7 @@ $$
 En este caso tenemos un sistema de un tanque con mezclador el cual debe tener en cuenta las señales reales como ruido, diferentes rangos y diferentes señales.
 
 <p align="center">
-    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
+    <img src="./Imagenes/mezclador.PNG" alt="Resorte" />
 </p>
 
 ### 7.2. Posibles entradas de un sistema:
@@ -282,7 +284,7 @@ En este caso tenemos un sistema de un tanque con mezclador el cual debe tener en
 A continuacion mostraremos una grafica que representa la entrada escalon:
 
 <p align="center">
-    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
+    <img src="./Imagenes/escalon.PNG" alt="Resorte" />
 </p>
 
 esta es a formula para la entrada:
@@ -305,7 +307,7 @@ $$
  A continuacion mostraremos la imagen que representa la entrada 
  
  <p align="center">
-    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
+    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
 </p>
 
 esta es la formula que puede representar  la entrada 
@@ -329,7 +331,7 @@ $$
  En esta grafica tambien mostraremos como se comporta esta entrada:
   
  <p align="center">
-    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
+    <img src="./Imagenes/parabola.PNG" alt="Resorte" />
 </p>
 Tambien la formula para ver el comportamiento es la siguiente:
 
