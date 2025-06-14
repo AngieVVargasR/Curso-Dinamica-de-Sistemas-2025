@@ -186,9 +186,9 @@ $$
 \frac{(s+2)}{(s+3)(s^2+0.5s+1)}
 $$
 
-## 4. GRADO DE UNA FUNCI+ON DE TRANSFERENCIA
+## 4. GRADO DE UNA FUNCIÓN DE TRANSFERENCIA
 
->🔑 * grados de una funcion de transferencia:*
+>🔑 *Grados de una funcion de transferencia:*
 > Otra forma de clasificar las funciones de transferencia es por su orden o grado
 > Esto lo define el polinomio caracteristico
 
@@ -198,24 +198,154 @@ $$
 G(s) = \frac{3s-1}{s^2+3s+2} 
 $$
 
-Polinomio característico de Segundo Orden
+Polinomio característico de Segundo Orden.
 
+Esto quiere decir que la función de transferencia es de segundo orden por lo que su denominador tendra algun termino elevado a la 2. 
 
+## 5. TEOREMA DEL VALOR FINAL
 
+>🔑 *Teorema del valor final:*
+>- El error en estado estacionario corresponde al error medio en $t = \infty$
+>- Es posible aprovechar el teorema del valor final para saber el valor final.
 
+Acontinuacion procedemos a observar la formula que define lo anterior.
 
+$$
+\lim_{t\to\infty} f(t) = \lim_{s\to0}sF(s)
+$$   
 
+💡**Ejemplo 4 :**
+Este ejemplo mostrara como se puede soucionar el teorema del valor final.
 
+$$
+G(s) = \frac{Y(s)}{U(s)} = \frac{4}{5s+1}
+$$
 
-## 7. Ejercicios externos: 
+$$
+Y(s) = \frac{4\cdot Y(s)}{5s+1}
+$$
 
-## 📚Ejercicio 1:
+$$
+Y(s) = \frac{\frac{4}{s}}{5s+1}
+$$
+
+$$
+\lim_{s\to0} sY(s) = \lim_{s\to0}s\cdot \frac{\frac{4}{s}}{5s+1}
+$$
+
+$$
+\lim_{s\to 0} \frac{4}{5s+1} = 4
+$$    
+
+Por ultimo para terminar de explicar como se realiza el teorema del valor final procederemos a colocar una imagen que muestra como se comporta el ejemplo anterior.
 
 <p align="center">
     <img src="./Imagenes/eje1.PNG" alt="Resorte" />
 </p>
 
 
+## 6. Actividad: 
+
+### 📚Ejercicio 1:
+
+$$
+G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^3+6s^2+11s+6}
+$$
+
+### 📚Ejercicio 2:
+
+$$
+G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^3+8s^2+15s}
+$$
+
+## 7. ENTRADAS DE LA PRUEBA DE UN SISTEMA 
+
+### 7.1. RESPUESTA DE UN SISTEMA 
+>🔑 * Respuesta de un sistema:* En este caso para obtener la respuesta de un sistema es necesario modelar cada sistema desde cero.
+
+En este caso tenemos un sistema de un tanque con mezclador el cual debe tener en cuenta las señales reales como ruido, diferentes rangos y diferentes señales.
+
+<p align="center">
+    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
+</p>
+
+### 7.2. Posibles entradas de un sistema:
+>🔑 * Entradas de un sistema:*
+>- Si la solución de una ecuación diferencial depende de la entrada, la respuesta de un sistema tambien.
+>- Es muy dificil conocer las señales que estan ocurriendo en un sistema ya que depende de muchos factores como ruido, tipo de señales, ambiente, entre otras.
+>- Ademas el sistema de control debe diseñarse para que funcione ante cualquier señal
+>- En control se utilizan diferentes tipos de señales de prueba para evaluar el desempeño de un sistema
+
+### 7.3. ENTRADA ESCALÓN:
+>🔑 * Entrada escalon:* Esta es una entrada que concidera un cambio de nivel repentino
+
+A continuacion mostraremos una grafica que representa la entrada escalon:
+
+<p align="center">
+    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
+</p>
+
+esta es a formula para la entrada:
+
+$$
+u(t) =
+\begin{cases}
+A,& \text{si } t > t_0 
+0, & \text{si } t < t_0
+\end{cases}
+$$
+
+$$
+\mathscr{L}\{u(t)\}=\frac{A}{s}
+$$
+
+### 7.4. ENTRADA RAMPA
+>🔑 * Entrada Rampa:* Es una entrada la cual va a variar en el tiempo de forma lineal
+
+ A continuacion mostraremos la imagen que representa la entrada 
+ 
+ <p align="center">
+    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
+</p>
+
+esta es la formula que puede representar  la entrada 
+
+$$
+x(t) =
+\begin{cases}
+At,& \text{si } t > t_0 
+0, & \text{si } t < t_0
+\end{cases}
+$$
+
+$$
+\mathscr{L}\{x(t)\}=\frac{A}{s^2}
+$$
+
+### 7.5. ENTRADA PARABOLA
+>🔑 * Entrada Parabola:*
+>- Es una entrada que concidera una variacion no lineal en el tiempolo cual permite evaluar diferentes condiciones de inicio a final 
+
+ En esta grafica tambien mostraremos como se comporta esta entrada:
+  
+ <p align="center">
+    <img src="./Imagenes/eje1.PNG" alt="Resorte" />
+</p>
+Tambien la formula para ver el comportamiento es la siguiente:
+
+$$
+r(t) =
+\begin{cases}
+At^2,& \text{si } t > t_0 
+0, & \text{si } t < t_0
+\end{cases}
+$$
+
+$$
+\mathscr{L}\{r(t)\}=\frac{A}{s^3}
+$$
+
+ 
 
 ## 8. Conclusiones
 En conclusión, en este apartado podemos observar que muchos elementos mecánicos no solo requieren una ecuación para su análisis, sino también la aplicación de una fuerza externa. Además, hemos aprendido la importancia de realizar un diagrama de cuerpo libre, ya que este nos permite identificar las fuerzas que actúan sobre el cuerpo y comprender su comportamiento.
