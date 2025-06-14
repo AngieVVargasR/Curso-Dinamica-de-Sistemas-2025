@@ -1,9 +1,12 @@
 
 Felipe Cruz Pineda, Angie Vargas- M6A
-# Correccion Parcial 1
-En esta sesión se procederá a realizar la corrección del parcial. 
-En esta ocasión se hizo 2 parciales distintos unos para números pares y otros para números impares sin embargo se llevan a realizar los cuatro ejercicios de los 2 parciales.
-## 📚Ejercicio 1:
+# Correccion Parcial 2
+En esta sesión se procederá a realizar la corrección del parcial del segundo corte. 
+En esta ocasión se hizo 2 parciales distintos unos para números pares y otros para números impares sin embargo se llevan a realizar los cuatro ejercicios de los 2 parciales:
+
+## PARCIAL 1:
+### 📚Ejercicio 1:
+Para este ejercicio procedemos como primer paso a realizar los diagramas de cuerpo libre para poder observar como se comportan las masas del sistema.
 $$
 \ddot{x} + 4x = y \quad\quad\quad x(0) = 5 \quad\quad\quad \dot{x}(0) = 0
 $$
