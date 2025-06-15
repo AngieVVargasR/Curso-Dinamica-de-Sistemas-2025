@@ -384,10 +384,16 @@ $$
 \mathscr{L}\{r(t)\}=\frac{A}{s^3}
 $$
 
-## 8. Conclusiones
+## 8. Ejercicios externos: 
+
+### 📚Ejercicio 1:
+
+### 📚Ejercicio 2:
+
+## 9. Conclusiones
 la función de transferencia ayuda a caracterizar el sistema de manera matemática, permitiendo predecir su comportamiento frente a diversas excitaciones. Dependiendo de las propiedades del sistema, como sus polos y ceros, se puede determinar si es estable, si amplifica ciertas frecuencias o si atenúa otras. Además, facilita el diseño y ajuste de controladores para modificar su respuesta y mejorar el desempeño.
 
-## 9. Referencias
+## 10. Referencias
 https://acrobat.adobe.com/id/urn:aaid:sc:US:71394447-b9cc-4ebe-8898-e8731e65012f
 https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
 https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
