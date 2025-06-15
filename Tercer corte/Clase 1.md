@@ -9,7 +9,7 @@ En esta ocasión se hizo 2 parciales distintos unos para números pares y otros 
 Para este ejercicio procedemos como primer paso a realizar los diagramas de cuerpo libre para poder observar como se comportan las masas del sistema.
 
  <p align="center">
-    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+    <img src="./Imagenes/m1 (1).jpeg" alt="Resorte" />
 </p>
 
 En esta ocacion tenemos la imagen del cuerpo libre para la primera masa donde reaccionan las fuerzas que se ven en la imagen dando como resultado las sigueientes ecuaciones:
@@ -28,7 +28,7 @@ $$
 Para la masa dos hacemos lo mismo dando como resultado lo siguiente:
 
  <p align="center">
-    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+    <img src="./Imagenes/m2.jpeg" alt="Resorte" />
 </p>
 
 $$
@@ -48,7 +48,7 @@ Con esto tenemos las dos ecuaciones que dan respuesta al primer problema del par
 En el siguiente punto tenemos un sistema electrico al cual tambien debemos halklar las ecuaciones que rigen este sistema
 
  <p align="center">
-    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+    <img src="./Imagenes/s1.jpeg" alt="Resorte" />
 </p>
 por mallas:
 
@@ -83,7 +83,7 @@ Como primer paso tenemos de nuevo que realizar los diagramas de cuerpo libre par
 Para la masa 1:
 
  <p align="center">
-    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+    <img src="./Imagenes/m1.1.jpeg" alt="Resorte" />
 </p>
 
 En este caso tenemos las siguientes ecuaciones para la primera masa:
@@ -102,7 +102,7 @@ Ahora tenemos la masa 2.
 Para este caso realizamos tambien un diagrama de cuerpo libre para saber como se comporta.
 
  <p align="center">
-    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+    <img src="./Imagenes/m1.2.jpeg" alt="Resorte" />
 </p>
 
 A continuacion porcedemos a sacar la ecuacion que representa el sistema.
@@ -121,7 +121,7 @@ $$
 Para este parcial tambien se dio un sistema electrico que es el siguiente:
 
  <p align="center">
-    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+    <img src="./Imagenes/s2.jpeg" alt="Resorte" />
 </p>
 
 
