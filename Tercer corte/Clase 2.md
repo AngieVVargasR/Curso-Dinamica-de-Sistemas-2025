@@ -131,8 +131,6 @@ El siguiente paso para continuar con el tema es ubicar los ceros en la gráfica 
 </p>
 
 
-💡**Ejemplo 2:**
-
 ## 3. POLOS DE UNA FUNCIÓN DE TRANSFERENCIA:
 
 >🔑 * Polos de una funcion de transferencia:*
@@ -181,12 +179,15 @@ En este apartado podremos observar una gráfica donde se podrán ver los polos r
     <img src="./Imagenes/zeros polos.PNG" alt="Ubicación de los zeros" />
 </p>
 
-💡**Ejemplo 3:** 
+💡**Ejemplo 2:** 
 En este caso haremos un ejemplo para la explicación de del tema de los polos.
 
 $$
 \frac{(s+2)}{(s+3)(s^2+0.5s+1)}
 $$
+
+Zeros = -2
+Polos = -3
 
 ## 4. GRADO DE UNA FUNCIÓN DE TRANSFERENCIA
 
@@ -194,7 +195,7 @@ $$
 > Otra forma de clasificar las funciones de transferencia es por su orden o grado
 > Esto lo define el polinomio caracteristico
 
-💡**Ejemplo :** Un ejemplo de esto es de como se puede ver el grado de la funcion de transferencia.
+💡**Ejemplo 3:** Un ejemplo de esto es de como se puede ver el grado de la funcion de transferencia.
 
 $$
 G(s) = \frac{3s-1}{s^2+3s+2} 
@@ -254,11 +255,47 @@ $$
 G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^3+6s^2+11s+6}
 $$
 
+$$
+y(s) = \frac{8U(s)}{s^3+6s^2+11s+6} = \frac{8\frac{4}{s}}{s^3+6s^2+11s+6} = \frac{\frac{32}{s}}{s^3+6s^2+11s+6}
+$$
+
+$$
+\lim_{s\to0} S4(S) = \lim_{s\to0}s \frac{\frac{32}{s}}{s^3+6s^2+11s+6}
+$$   
+
+$$
+= \frac{32}{6} = \frac{16}{3}
+$$   
+
+Y esa es la respuesta al ejercicio.
+
 ### 📚Ejercicio 2:
 
 $$
 G(s) = \frac{Y(s)}{U(s)} = \frac{8}{s^3+8s^2+15s}
 $$
+
+$$
+y(s) = \frac{8U(s)}{s^3+8s^2+15s} 
+$$
+
+$$
+y(s) = \frac{8\frac{3}{s^2}}{s^3+8s^2+15s}
+$$
+
+$$
+y(s) = \frac{frac{24}{s^2}}{s^3+8s^2+15s}
+$$
+
+$$
+\lim_{s\to0} Sy(S) = \lim_{s\to0}s \frac{\frac{24}{s^2}}{s^3+8s^2+15s} = \frac{\frac{24}{s}}{s^3+8s^2+15s} 
+$$   
+
+$$
+\frac{\frac{24}{s^2}}{s^3+8s^2+15s} = \frac{24}{0} = infty
+$$
+
+
 
 ## 7. ENTRADAS DE LA PRUEBA DE UN SISTEMA 
 
@@ -347,10 +384,8 @@ $$
 \mathscr{L}\{r(t)\}=\frac{A}{s^3}
 $$
 
- 
-
 ## 8. Conclusiones
-
+la función de transferencia ayuda a caracterizar el sistema de manera matemática, permitiendo predecir su comportamiento frente a diversas excitaciones. Dependiendo de las propiedades del sistema, como sus polos y ceros, se puede determinar si es estable, si amplifica ciertas frecuencias o si atenúa otras. Además, facilita el diseño y ajuste de controladores para modificar su respuesta y mejorar el desempeño.
 
 ## 9. Referencias
 https://acrobat.adobe.com/id/urn:aaid:sc:US:71394447-b9cc-4ebe-8898-e8731e65012f
