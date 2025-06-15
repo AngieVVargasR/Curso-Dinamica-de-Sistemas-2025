@@ -7,129 +7,141 @@ En esta ocasión se hizo 2 parciales distintos unos para números pares y otros 
 ## PARCIAL 1:
 ### 📚Ejercicio 1:
 Para este ejercicio procedemos como primer paso a realizar los diagramas de cuerpo libre para poder observar como se comportan las masas del sistema.
+
+ <p align="center">
+    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+</p>
+
+En esta ocacion tenemos la imagen del cuerpo libre para la primera masa donde reaccionan las fuerzas que se ven en la imagen dando como resultado las sigueientes ecuaciones:
+ 
+ 
 $$
-\ddot{x} + 4x = y \quad\quad\quad x(0) = 5 \quad\quad\quad \dot{x}(0) = 0
+U+F _{w1} - F _{k2} -F _{B1} -F _{B2} -F _{B3} - F _{k1} = m _{1} * a _{m1}
 $$
 
-$$
-s^{2}x(s)-5s+4x(s)= \frac{5}{s}
-$$
+Pasamos a reemplazar lo que es la ecuacion por las otras formulas para tener la ecuacion mas completa:
 
 $$
-x(s)\left(s^{2}+4\right) = \frac{5}{s} + 5s \quad\quad\quad s^{2}+4 = 0 \quad \rightarrow \quad s= \sqrt{-4}
+U+M _{1}G - K _{1}Y _{1} -B _{1}Y _{1} -B _{2}Y _{1}-B _{3}(Y _{1}-Y _{2})- K _{1}(Y _{1}-Y _{2}) = m _{1} * Y _{1}
 $$
 
-$$
-x(s) = \frac{5+5s^{2}}{s\left(s^{2}+4\right)} = \frac{A}{s} + \frac{Bs + D}{s^{2}+4} = \frac{\frac{5}{4}}{s} + \frac{\frac{15}{4}s}{s^{2}+4}
-$$
+Para la masa dos hacemos lo mismo dando como resultado lo siguiente:
+
+ <p align="center">
+    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+</p>
 
 $$
-A\left(s^{2}+4\right)+Bs^{2}+Ds = 5 + 5s^{2}
+IK= F_{w2} -F_{B3} = m_{2}*Y_{2}
 $$
 
-- $A + B = 5$
-- $D = 0$
-- $4A = 5 \iff A = \frac{5}{4}$
-- $B = 5 - \frac{5}{4} \iff \frac{15}{4}$
-
-🔆 Realizando la transformada inversa:
+De nuevo realizamos el reemplazo para poder tener la ecuacion completa:
 
 $$
-\mathcal{L}^{-1}\{ x(s) \} = \frac{5}{4} + \frac{15}{4}\cdot\cos{(2t)}
+K (y_{1}-y_{2}) + m_{2}g -B(Y_{1}-Y_{2}) = m_{2}*Y_{2}
 $$
+
+Con esto tenemos las dos ecuaciones que dan respuesta al primer problema del parcial.
 
 ## 📚Ejercicio 2:
+
+En el siguiente punto tenemos un sistema electrico al cual tambien debemos halklar las ecuaciones que rigen este sistema
+
+ <p align="center">
+    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+</p>
+por mallas:
+
 $$
-2\ddot{x} + 2\dot{x} + x = 1 \quad\quad\quad x(0) = 0; \quad \dot{x} = 2
+-e(t)+V_{i}+V_{200}+V_{50}=+50(I_{1}-I_{2})=0                            
+$$ 
+
+$$
+IC= CDV/DT 
 $$
 
 $$
-2(s^{2}X(s)-2)+2(sX(s))+X(s) = \frac{1}{s}
+-e(t)+2I_{1}+200I_{1}+50(I_{1}-I_{2})=0     
 $$
 
 $$
-2s^{2}X(s)-4+2sX(s)+X(s) = \frac{1}{s}
+V_{50}+V_{20}+V_{1}=0 
 $$
 
 $$
-X(s)\left(2s^{2}+2s+1\right) = \frac{1}{s} + 4
+50(I_{2}-I_{1})+20I_{2}+1/C\int I_{2}dt = 0
 $$
 
-$$
-X(s) = \frac{1+4s}{s(2s^{2}+2s+1)} = \frac{A}{s} + \frac{Bs + D}{2s^{2}+2s+1}
-$$
+Esta termina siendo la ecuacion que resuelve el sistema electrico.
 
-$$
-A = \frac{1+4s}{2s^{2}+2s+1} \biggr|_{s=0} = \frac{1}{1} = 1 \quad \rightarrow \boxed{A = 1}
-$$
-
-Evaluando en $s = -1 + 2i$:
-
-$$
-\frac{1+4(-1+2i)}{-1+2i} = -B + 2Bi + D
-$$
-
-$$
-\frac{-3 + 8i}{-1 + 2i} \cdot \frac{-1 - 2i}{-1 - 2i} = -B + 2Bi + D
-$$
-
-$$
-\frac{-160i + 80}{64} = -B + 2Bi + D
-$$
-
-- $\frac{-2i}{5} = 2Bi \Rightarrow \boxed{B = -\frac{1}{5}}$
-- $\frac{19}{5} = -B + D \Rightarrow \boxed{D = 4}$
-en este caso falto hallar su transformada inversa.
+## PARCIAL 2:
 
 ## 📚Ejercicio 3:
+Para este parcial tambien se da un modelo mecanico el cual debemos hallar sus ecuaciones para solucionar el sistema.
+Como primer paso tenemos de nuevo que realizar los diagramas de cuerpo libre para cada masa.
+
+Para la masa 1:
+
+ <p align="center">
+    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+</p>
+
+En este caso tenemos las siguientes ecuaciones para la primera masa:
 
 $$
-F(s) = \frac{5(s+2)}{s^{2}(s^{2}-4s+8)} = \frac{A}{s} + \frac{B}{s^{2}} + \frac{Cs + D}{s^{2}-4s+8}
+U-FK-FB=0
 $$
 
-$$
-B = \frac{5(s+2)}{s^{2}-4s+8} \biggr|_{s=0} = \frac{10}{8}
-$$
+Reemplazando por las formulas para una ecuacion concreta y mas puntual
 
 $$
-A = \frac{5(s^{2}-4s+8)-5(s+2)(2s-4)}{(s^{2}-4s+8)^{2}} \biggr|_{s=0} = \frac{80}{64} = \frac{5}{4}
+U-K(Y-X)-B(Y-X)=0
 $$
 
-Para $s = 2 + 2i$:
+Ahora tenemos la masa 2.
+Para este caso realizamos tambien un diagrama de cuerpo libre para saber como se comporta.
+
+ <p align="center">
+    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+</p>
+
+A continuacion porcedemos a sacar la ecuacion que representa el sistema.
 
 $$
-\frac{5(s+2)}{s^{2}} \biggr|_{s=2+2i} = 2C + 2Ci + D
+FK+FB=M_{am}
 $$
 
-$$
-\frac{20 + 10i}{8i} \cdot \frac{-8i}{-8i} = 2C + 2Ci + D
-$$
+por lo que reemplazando por las formulas:
 
 $$
-\frac{-160i + 80}{64} = 2C + 2Ci + D
+K(Y-X)+B(Y-X)=MY
 $$
-
-- $2Ci = \frac{-160i}{64} \Rightarrow C = \frac{160}{128}$
-- $\frac{80}{64} = 2C + D \Rightarrow D = \frac{-8 \cdot 128}{64 \cdot 2 \cdot 160}$
-
 
 ## 📚Ejercicio 4:
+Para este parcial tambien se dio un sistema electrico que es el siguiente:
+
+ <p align="center">
+    <img src="./Imagenes/rampa.PNG" alt="Resorte" />
+</p>
+
+
 $$
-F(s) = \frac{6s}{\left(2-\frac{5}{2}\right)(s^{2}-4s+8)} = \frac{A}{s - \frac{5}{2}} + \frac{Bs + C}{s^{2}-4s+8}
+-e + V_L + V_{200} + V_{50} = 0
 $$
 
 $$
-A = \frac{6s}{s^{2}-4s+8} \biggr|_{s = \frac{5}{2}} = \frac{60}{97}
+-e(t) + 2\dot{I}_1 + 200 I_1 + 50(I_1 - I_2) = 0
 $$
 
-Evaluando en $s = -2 + 2i$:
-
 $$
-\frac{6s}{s^{2}-4s+8} \biggr|_{s = -2+2i} = Bs + C
+V_{50} = V_x, \quad V_C = 0
 $$
 
-- $B = \frac{-160}{128}$
-- $C = \frac{80 \cdot 128}{64 \cdot 2 \cdot 160}$
+$$
+(50(I_1 - I_2) + 200 I_2 + \frac{1}{C} \int I_2 \)
+$$
+
+ este es muy parecido al anterior sin embargo responde preguntas distintas.
 
 ---
 ## 1. Conclusiones
