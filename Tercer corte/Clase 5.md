@@ -18,7 +18,7 @@ Basicamente lo que quiere decir que el flujo de señales es la relacion que hay 
 Esto anteriormente explicado se representa de la siguiente manera:
 
 <p align="center">
-    <img src="./Imagenes/zeros.PNG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/Nodo.PNG" alt="Ubicación de los zeros" />
 </p>
 Dentro de estos diagramas las figuras representativas ( en este caso los circulos) pueden dejarse vacios o en su defecto rellenarse.
 
@@ -30,7 +30,7 @@ Dentro de estos diagramas las figuras representativas ( en este caso los circulo
 En pocas palabras las flechas son la relacion entre dos señales que me pueden representar una funcion de transferencia y se representa de la siguiente manera:
 
 <p align="center">
-    <img src="./Imagenes/zeros.PNG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/flecha.PNG" alt="Ubicación de los zeros" />
 </p>
 
 ## 2. Interpretacion  de los diagramas de flujo
@@ -38,7 +38,7 @@ En pocas palabras las flechas son la relacion entre dos señales que me pueden r
 A continuacion procedemos a mostrar como se puede interpretar las señales de los diagramas de flujo por medio de una tabla:
 
 <p align="center">
-    <img src="./Imagenes/zeros.PNG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/inter.PNG" alt="Ubicación de los zeros" />
 </p>
 
 ## 2. Definiciones
@@ -59,7 +59,7 @@ A continuacion procedemos a mostrar como se puede interpretar las señales de lo
  
 En este caso procederemos a ver la representacion grafica de los diagramas teniendo en cuenta lo anterior:
 <p align="center">
-    <img src="./Imagenes/zeros.PNG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/def.PNG" alt="Ubicación de los zeros" />
 </p>
 
 ## 3. Formula de Mason
@@ -88,7 +88,7 @@ $$
 💡**Ejemplo 1:** 
 
 <p align="center">
-    <img src="./Imagenes/zeros.PNG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/eje1.PNG" alt="Ubicación de los zeros" />
 </p>
 
 #### Trayectoria directos
@@ -125,7 +125,7 @@ $$
 
 💡**Ejemplo 2:**
 <p align="center">
-    <img src="./Imagenes/zeros.PNG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/eje2.PNG" alt="Ubicación de los zeros" />
 </p>
 
 #### Ganancia de Trayectoria directa
@@ -190,7 +190,7 @@ $$
 
 💡**Ejemplo 3:**
 <p align="center">
-    <img src="./Imagenes/zeros.PNG" alt="Ubicación de los zeros" />
+    <img src="./Imagenes/eje3.PNG" alt="Ubicación de los zeros" />
 </p>
 ### Trayectoria directa
 
@@ -232,18 +232,17 @@ $$
 \frac{E_{0}}{E_{1}} = \frac{G_1 G_2 G_3 G_4}{1 + G_1 G_2 G_3 G_4 + G_2 G_3 + G_1 G_2 G_3 G_4}
 $$
 
-## 6. Actividad: 
+## 4. Ejercicios externos: 
 
 ### 📚Ejercicio 1:
 
 ### 📚Ejercicio 2:
 
 
+## 5. Conclusiones
 
-## 8. Conclusiones
 
-
-## 9. Referencias
+## 6. Referencias
 https://acrobat.adobe.com/id/urn:aaid:sc:US:71394447-b9cc-4ebe-8898-e8731e65012f
 https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
 https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.pdf
