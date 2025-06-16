@@ -222,17 +222,157 @@ $$
 \beta_{equiv} = \left(\frac{N_1}{N_2}\right)^2\beta
 $$
 
-$$J_{equiv} = \left(J_{N1}+ \left(\frac{N_1}{N_2}^2\right)\left(J+J_{N2}\right)\right)$
+$$
+J_{equiv} = \left(J_{N1}+ \left(\frac{N_1}{N_2}^2\right)\left(J+J_{N2}\right)\right)
+$$
+
+Por ultimo tenemos el diagrama de bloques que representa el sistema 
+
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+
+y tenemos el sistema de transmision rotacional por medio de un diagrama de bloques 
+
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+
+### 2.2. Palancas:
+
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+
+En este caso tenemos nla representacio grafica de un sistema de palancas para la realizacion de un modelo, Luego de esto tenemos las siguientes ecuaciones que rigen el sistema:
+
+$$
+-\frac{f_2}{f_1} = \frac{d_1}{d_2}$ y $\frac{d_1}{d_2} = -\frac{x_1}{x_2}
+$$
+
+### 2.3. Potenciometros:
+En este caso tenemos dos tipos de potenciometros donde tienen distintos comporamientos como los siguientes.
+
+### 2.3.1. Potenciometro de rotacion
+
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+
+donde obtenemos las siguientes ecuaciones y su comportamiento en forma de grafica:
+
+$$
+V_o= \frac{\theta}{\theta_{max}}V_{cc}
+$$
+
+### 2.3.2. Potenciometro de traslacion:
+
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+
+donde obtenemos las siguientes ecuaciones que representan el sistema:
+
+$$
+V_o= \frac{x}{x_{max}}V_{cc}
+$$
+
+### 2.4. Tacómetros
+En este caso hablaremos de  que es un tacometro y cual es su representacion y modelo 
+
+>🔑 Son dispositivos que convierten la velocidad angular a voltaje.
 
 
+$v(t) = k\frac{d\theta(t)}{dt}$\\
+$G(s) = \frac{V(s)}{\varTheta(s)} = ks$
 
+aqui podemos observar la imagen de como esta compuesto el tacometro y una representacion en modo bloques.
+Acontinuacion presentaremos las ecuaciones que rigen el sistema:
 
+$$
+v(t) = k\frac{d\theta(t)}{dt}
+$$
 
+$$
+G(s) = \frac{V(s)}{\varTheta(s)} = ks
+$$
 
-## 9. Conclusiones
-En conclusión, en esta sección podemos observar cómo muchos de los conceptos que ya poseíamos previamente pueden ser retomados y aplicados nuevamente para la construcción de modelos matemáticos en diversos gráficos. Además, es posible identificar la manera en que cada elemento posee características propias, como su energía, potencia y trabajo, las cuales pueden expresarse a través de fórmulas específicas. Estas ecuaciones nos permiten comprender mejor sus propiedades y, en consecuencia, desarrollar modelos matemáticos precisos que faciliten su análisis y resolución.
+## 3. Sensores transmisores 
 
-## 10. Referencias
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+
+Estos sensores pueden presentar distintos tipos por lo que cada uno de estos sensores tienen sus propias ecuaciones:
+
+### 3.1. Lineales:
+Si los sensores resultan ser lineales se representan de la siguiente manera:
+
+$$
+H(s) = \frac{TO}{PV} = k
+$$
+
+## 3.2. No lineales 
+
+$$
+H(s) = \frac{TO(S)}{PV(s)} = \frac{K_{T}}{T_{S}S+1}
+$$
+
+## 4. Modelos de otros procesos
+
+### 4.1. Mezcla de sustancias 
+Esto funciona de manera que  al tanque ingresa  cierta sustancia a con una cierta concentración en el tanque que tiene otra sustancia b por lo que se van a mezclar y la salida sera una sustancia en este caso c que sera la salida del sistema. 
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+
+La ecuacion que representa este tipo de sistemas es la siguiente:
+
+$$
+G(s) = \frac{Q(s)}{Q_i(s)} = \frac{\rho inicial^s + \rho in^vin}{s+v_{out}}
+$$
+
+💡**Ejemplo 1:**
+* Sea un tanque lleno con ocho litros de agua salada en el cual estan disueltos dos kg de sal. Una solucion de salmuera (agua salada) con tres kg de sal por litro entra al tanque a una velocidad de 4 l/min, mientras la mezcla bien agitada sale a la misma velocidad con la que entra.
+
+Solucionando el problema y modelando el sistema tenemos que su funcion de transferencia es:
+
+$$
+G(s) = \frac{Q(s)}{Q_i(s)} = \frac{2s+3\cdot4}{s+4}
+$$
+
+### 4.2. Sistemas Termicos
+En este caso modelar estos sistemas es demaciado complejo por lo que se busca que con el conocimiento que ya tenemos podramos modelarlo de manera que las ecuaciones que de el sistema queden de primer orden como se mostrara mas adelante despues de la imagen 
+
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+ la ecuacion que corresponde al sistema es la siguiente:
+ 
+ $$
+ G(s) = \frac{T(s)}{Q_in(s)} = \frac{\frac{1}{C}}{s+\frac{1}{RC}}
+ $$
+ 
+ 💡**Ejemplo 2:**
+ 
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+En este caso  se procede a hacer la solucion por modelamiento de diagrama de bloques por lo que queda lo siguiente  
+
+<p align="center">
+    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+</p>
+
+## 5. Ejercicios externos: 
+
+### 📚Ejercicio 1:
+
+### 📚Ejercicio 2:
+
+## 6. Conclusiones
+
+## 7. Referencias
 (https://acrobat.adobe.com/id/urn:aaid:sc:US:77379dba-797d-43ee-96b6-6cad6c837216)
 https://www.canva.com/design/DAGWSRhEhjU/4UJ2cu8t_VBxrxqtgmSBPA/edit
 https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/dinamica_de_sistemas.p
