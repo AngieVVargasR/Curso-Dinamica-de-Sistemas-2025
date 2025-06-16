@@ -276,7 +276,7 @@ $$
 ### 2.3.2. Potenciometro de traslacion:
 
 <p align="center">
-    <img src="./Imagenes/potenr1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/poten3.PNG" alt="ejemplo" />
 </p>
 
 donde obtenemos las siguientes ecuaciones que representan el sistema:
@@ -290,9 +290,9 @@ En este caso hablaremos de  que es un tacometro y cual es su representacion y mo
 
 >🔑 Son dispositivos que convierten la velocidad angular a voltaje.
 
-
-$v(t) = k\frac{d\theta(t)}{dt}$\\
-$G(s) = \frac{V(s)}{\varTheta(s)} = ks$
+<p align="center">
+    <img src="./Imagenes/tacometro.PNG" alt="ejemplo" />
+</p>$
 
 aqui podemos observar la imagen de como esta compuesto el tacometro y una representacion en modo bloques.
 Acontinuacion presentaremos las ecuaciones que rigen el sistema:
@@ -308,7 +308,7 @@ $$
 ## 3. Sensores transmisores 
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/sensor t.PNG" alt="ejemplo" />
 </p>
 
 Estos sensores pueden presentar distintos tipos por lo que cada uno de estos sensores tienen sus propias ecuaciones:
@@ -331,7 +331,7 @@ $$
 ### 4.1. Mezcla de sustancias 
 Esto funciona de manera que  al tanque ingresa  cierta sustancia a con una cierta concentración en el tanque que tiene otra sustancia b por lo que se van a mezclar y la salida sera una sustancia en este caso c que sera la salida del sistema. 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/mezcla.PNG" alt="ejemplo" />
 </p>
 
 La ecuacion que representa este tipo de sistemas es la siguiente:
@@ -353,7 +353,7 @@ $$
 En este caso modelar estos sistemas es demaciado complejo por lo que se busca que con el conocimiento que ya tenemos podramos modelarlo de manera que las ecuaciones que de el sistema queden de primer orden como se mostrara mas adelante despues de la imagen 
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/termico.PNG" alt="ejemplo" />
 </p>
  la ecuacion que corresponde al sistema es la siguiente:
  
@@ -364,12 +364,12 @@ En este caso modelar estos sistemas es demaciado complejo por lo que se busca qu
  💡**Ejemplo 2:**
  
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/ejet1.PNG" alt="ejemplo" />
 </p>
 En este caso  se procede a hacer la solucion por modelamiento de diagrama de bloques por lo que queda lo siguiente  
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/solu1.PNG" alt="ejemplo" />
 </p>
 
 ## 5. Ejercicios externos: 
