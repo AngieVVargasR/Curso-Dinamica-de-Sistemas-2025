@@ -364,7 +364,7 @@ En este caso modelar estos sistemas es demaciado complejo por lo que se busca qu
  💡**Ejemplo 2:**
  
 <p align="center">
-    <img src="./Imagenes/ejet1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/ejet2.PNG" alt="ejemplo" />
 </p>
 En este caso  se procede a hacer la solucion por modelamiento de diagrama de bloques por lo que queda lo siguiente  
 
