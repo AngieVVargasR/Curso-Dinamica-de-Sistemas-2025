@@ -16,7 +16,7 @@ a continuacion se podran mostrar algunos de los modelos de sistemas complejos qu
 a continuacion veremos una imagen representativa de como de pueden ver estos tipos de sistemas y cual es su representacion o modelo en representacion de ecuaciones.
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/selenoide.PNG" alt="ejemplo" />
 </p>
 
 $$
@@ -70,18 +70,18 @@ $$
 al terminar este sistemas procedemos a realizar una representacion en bloques dodnde trendremos los siguientes resultados.
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/rep1.PNG" alt="ejemplo" />
 </p>
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/rep2.PNG" alt="ejemplo" />
 </p>
 
 ### 1.2. Motor DC 
 Lo siguiete que veremos es como se puede solucionar un sistema de un motor dc aplicando tosod los pasos y las formulas de modelamiento de un sistema que hemos estado viendo anteriormente.
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/motordc.PNG" alt="ejemplo" />
 </p>
 Esta es la imagen que estaremos analizando de un motor DC
 
@@ -140,7 +140,7 @@ $$
 por lo que colocandolos en un diagrama de bloques queda de la siguiente manera:
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/dc1.PNG" alt="ejemplo" />
 </p>
 
 * Para esta ocacion hallaremos las ecuaciones pero para la corriente de armadura
@@ -185,7 +185,7 @@ $$
 Por ultim para representar este modelo de sistema tenemos el diagrama de bloques 
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/dc2.PNG" alt="ejemplo" />
 </p>
 
 ## 2. Elementos transmisores de energia 
@@ -195,7 +195,7 @@ Por ultim para representar este modelo de sistema tenemos el diagrama de bloques
 >🔑 son dispositivos mecanicos que transmiten la energia desde una parte del sistema a otra
  
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/engra.PNG" alt="ejemplo" />
 </p>
 
 Por el momento tenemos las siguienters ecuaciones para poder entender el sistema 
@@ -229,19 +229,23 @@ $$
 Por ultimo tenemos el diagrama de bloques que representa el sistema 
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/engra1.PNG" alt="ejemplo" />
 </p>
 
 y tenemos el sistema de transmision rotacional por medio de un diagrama de bloques 
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/engra3.PNG" alt="ejemplo" />
+</p>
+
+<p align="center">
+    <img src="./Imagenes/engra2.PNG" alt="ejemplo" />
 </p>
 
 ### 2.2. Palancas:
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/palan1.PNG" alt="ejemplo" />
 </p>
 
 En este caso tenemos nla representacio grafica de un sistema de palancas para la realizacion de un modelo, Luego de esto tenemos las siguientes ecuaciones que rigen el sistema:
@@ -256,7 +260,7 @@ En este caso tenemos dos tipos de potenciometros donde tienen distintos comporam
 ### 2.3.1. Potenciometro de rotacion
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/potenr.PNG" alt="ejemplo" />
 </p>
 
 donde obtenemos las siguientes ecuaciones y su comportamiento en forma de grafica:
@@ -265,10 +269,14 @@ $$
 V_o= \frac{\theta}{\theta_{max}}V_{cc}
 $$
 
+<p align="center">
+    <img src="./Imagenes/potenr1.PNG" alt="ejemplo" />
+</p>
+
 ### 2.3.2. Potenciometro de traslacion:
 
 <p align="center">
-    <img src="./Imagenes/EJE1.PNG" alt="ejemplo" />
+    <img src="./Imagenes/potenr1.PNG" alt="ejemplo" />
 </p>
 
 donde obtenemos las siguientes ecuaciones que representan el sistema:
